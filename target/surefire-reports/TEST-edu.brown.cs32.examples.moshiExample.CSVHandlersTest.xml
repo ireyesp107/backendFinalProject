@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="1.118" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill/target/test-classes:/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill/target/classes:/Users/amaris/.m2/repository/com/squareup/moshi/moshi/1.13.0/moshi-1.13.0.jar:/Users/amaris/.m2/repository/com/squareup/okio/okio/2.10.0/okio-2.10.0.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar:/Users/amaris/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.0/kotlin-stdlib-jdk8-1.6.0.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.0/kotlin-stdlib-jdk7-1.6.0.jar:/Users/amaris/.m2/repository/com/squareup/moshi/moshi-adapters/1.13.0/moshi-adapters-1.13.0.jar:/Users/amaris/.m2/repository/com/sparkjava/spark-core/2.9.3/spark-core-2.9.3.jar:/Users/amaris/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-server/9.4.31.v20200723/jetty-server-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-http/9.4.31.v20200723/jetty-http-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-util/9.4.31.v20200723/jetty-util-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-io/9.4.31.v20200723/jetty-io-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.31.v20200723/jetty-webapp-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.31.v20200723/jetty-xml-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.31.v20200723/jetty-servlet-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-security/9.4.31.v20200723/jetty-security-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.31.v20200723/websocket-server-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.31.v20200723/websocket-common-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.31.v20200723/websocket-client-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-client/9.4.31.v20200723/jetty-client-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.31.v20200723/websocket-servlet-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.31.v20200723/websocket-api-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/Users/amaris/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/amaris/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/Users/amaris/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/amaris/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:/Users/amaris/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill/target/surefire/surefirebooter-20221014172548160_9.jar /Users/amaris/Desktop/cs32/sprint-2-agrondin-estill/target/surefire 2022-10-14T17-25-47_375-jvmRun1 surefire-20221014172548160_7tmp surefire_1-20221014172548160_8tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill/target/test-classes:/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill/target/classes:/Users/amaris/.m2/repository/com/squareup/moshi/moshi/1.13.0/moshi-1.13.0.jar:/Users/amaris/.m2/repository/com/squareup/okio/okio/2.10.0/okio-2.10.0.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.4.20/kotlin-stdlib-1.4.20.jar:/Users/amaris/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.4.20/kotlin-stdlib-common-1.4.20.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.6.0/kotlin-stdlib-jdk8-1.6.0.jar:/Users/amaris/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.6.0/kotlin-stdlib-jdk7-1.6.0.jar:/Users/amaris/.m2/repository/com/squareup/moshi/moshi-adapters/1.13.0/moshi-adapters-1.13.0.jar:/Users/amaris/.m2/repository/com/sparkjava/spark-core/2.9.3/spark-core-2.9.3.jar:/Users/amaris/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-server/9.4.31.v20200723/jetty-server-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-http/9.4.31.v20200723/jetty-http-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-util/9.4.31.v20200723/jetty-util-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-io/9.4.31.v20200723/jetty-io-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-webapp/9.4.31.v20200723/jetty-webapp-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-xml/9.4.31.v20200723/jetty-xml-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-servlet/9.4.31.v20200723/jetty-servlet-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-security/9.4.31.v20200723/jetty-security-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-server/9.4.31.v20200723/websocket-server-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-common/9.4.31.v20200723/websocket-common-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-client/9.4.31.v20200723/websocket-client-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/jetty-client/9.4.31.v20200723/jetty-client-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-servlet/9.4.31.v20200723/websocket-servlet-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/eclipse/jetty/websocket/websocket-api/9.4.31.v20200723/websocket-api-9.4.31.v20200723.jar:/Users/amaris/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.4.0/junit-jupiter-engine-5.4.0.jar:/Users/amaris/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/amaris/.m2/repository/org/junit/platform/junit-platform-engine/1.4.0/junit-platform-engine-1.4.0.jar:/Users/amaris/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/amaris/.m2/repository/org/junit/platform/junit-platform-commons/1.4.0/junit-platform-commons-1.4.0.jar:/Users/amaris/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.4.0/junit-jupiter-api-5.4.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/amaris"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill/target/surefire/surefirebooter-20221014172548160_9.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="18.0.2.1+0"/>
+    <property name="user.name" value="amaris"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/amaris/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="jetty.git.hash" value="450ba27947e13e66baa8cd1ce7e85a4461cacc1d"/>
+    <property name="java.io.tmpdir" value="/var/folders/ln/z8wgjvf91sgd1699_9fk5xd40000gn/T/"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="/Users/amaris/Desktop/cs32/sprint-2-agrondin-estill"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/amaris/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="18.0.2.1+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="testFullCsvAndNoGetTwiceWithLoaded" classname="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="0.944">
+    <system-out><![CDATA[{}
+{}
+edu.brown.cs32.examples.moshiExample.server.csvData@e5cf71d
+{}
+{}
+edu.brown.cs32.examples.moshiExample.server.csvData@e5cf71d
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="testLoadErrors" classname="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="0.013">
+    <system-out><![CDATA[{}
+{}
+{}
+]]></system-out>
+  </testcase>
+  <testcase name="testUpdateCsv" classname="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="0.016">
+    <system-out><![CDATA[{}
+{}
+]]></system-out>
+  </testcase>
+  <testcase name="testMockData" classname="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="0.019">
+    <system-out><![CDATA[{}
+edu.brown.cs32.examples.moshiExample.server.csvData@4d368234
+]]></system-out>
+  </testcase>
+  <testcase name="testFullCsvAndNoGetTwiceWithoutLoaded" classname="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="0.018">
+    <system-out><![CDATA[{}
+{}
+edu.brown.cs32.examples.moshiExample.server.csvData@6b1e118c
+{}
+edu.brown.cs32.examples.moshiExample.server.csvData@6b1e118c
+]]></system-out>
+  </testcase>
+  <testcase name="testGetErrors" classname="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="0.012">
+    <system-out><![CDATA[{}
+{}
+edu.brown.cs32.examples.moshiExample.server.csvData@34bb3a81
+]]></system-out>
+  </testcase>
+  <testcase name="testEmptyCsv" classname="edu.brown.cs32.examples.moshiExample.CSVHandlersTest" time="0.009">
+    <system-out><![CDATA[{}
+{}
+edu.brown.cs32.examples.moshiExample.server.csvData@6c2a9a96
+]]></system-out>
+  </testcase>
+</testsuite>

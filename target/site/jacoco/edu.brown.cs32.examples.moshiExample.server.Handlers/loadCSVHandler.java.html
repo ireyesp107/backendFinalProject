@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>loadCSVHandler.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">moshi</a> &gt; <a href="index.source.html" class="el_package">edu.brown.cs32.examples.moshiExample.server.Handlers</a> &gt; <span class="el_source">loadCSVHandler.java</span></div><h1>loadCSVHandler.java</h1><pre class="source lang-java linenums">package edu.brown.cs32.examples.moshiExample.server.Handlers;
+
+import edu.brown.cs32.examples.moshiExample.csv.FactoryFailureException;
+import edu.brown.cs32.examples.moshiExample.csv.ListStringCreator;
+import edu.brown.cs32.examples.moshiExample.csv.Parse;
+import edu.brown.cs32.examples.moshiExample.server.csvData;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import spark.QueryParamsMap;
+import spark.Request;
+import spark.Response;
+import spark.Route;
+
+/**
+ * class that handles loading of csv
+ */
+public class loadCSVHandler extends genericHandler implements Route {
+
+  private csvData loader;
+
+  /**
+   * constructor to load the csv data
+   * @param loader, csv data content
+   */
+<span class="fc" id="L27">  public loadCSVHandler(csvData loader) {</span>
+<span class="fc" id="L28">    this.loader = loader;</span>
+<span class="fc" id="L29">  }</span>
+
+  /**
+   * handles loadcsv request and sends a response that indicates if the file was loaded and the filepath
+   * @param request, a string of the request
+   * @param response
+   * @return Json of map that indicates if the file was loaded and the filepath
+   * @throws IOException
+   */
+  public Object handle(Request request, Response response) throws IOException {
+//      List&lt;List&lt;String&gt;&gt; csvContent = new ArrayList&lt;&gt;();
+<span class="fc" id="L40">    hashMap.clear();</span>
+<span class="fc" id="L41">    System.out.println(hashMap);</span>
+
+<span class="fc" id="L43">    QueryParamsMap qpm = request.queryMap();</span>
+<span class="fc" id="L44">    String filepath = qpm.value(&quot;filepath&quot;);</span>
+
+<span class="fc bfc" id="L46" title="All 4 branches covered.">    if ((!(qpm.hasKey(&quot;filepath&quot;))) || (filepath.length()==0)) { //bad request</span>
+<span class="fc" id="L47">      return BadRequestSerialize(hashMap);</span>
+    }
+
+    try {
+      // parse file
+<span class="fc" id="L52">        Parse csvParse = new Parse(new FileReader(filepath), new ListStringCreator(), false);</span>
+<span class="fc" id="L53">        this.loader.setCSVData(csvParse.parser()); // shared state? pop when we get to the gethandler?</span>
+//        hashMapSuccess.put(&quot;Result&quot;, &quot;Success&quot;);
+<span class="fc" id="L55">        hashMap.put(&quot;Filepath&quot;, filepath);</span>
+<span class="fc" id="L56">        hashMap.put(&quot;Result&quot;, &quot;Success&quot;);</span>
+<span class="fc" id="L57">    } catch (FileNotFoundException e) {</span>
+<span class="fc" id="L58">      return DatasourceSerialize(hashMap);</span>
+<span class="nc" id="L59">    } catch (FactoryFailureException e) {</span>
+<span class="nc" id="L60">      return DatasourceSerialize(hashMap);</span>
+<span class="fc" id="L61">    }</span>
+
+<span class="fc" id="L63">    HashMap&lt;String, Object&gt; hashMapSuccessCopy = new HashMap(hashMap);</span>
+<span class="fc" id="L64">    return serialize(hashMapSuccessCopy);</span>
+  }
+
+}
+
+
+
+
+
+
+
+//
+//  //dont think we need
+//  /**
+//   * Response object to send if someone requested soup before any recipes were loaded
+//   */
+//  public record BadJsonFailureResponse(String response_type) {
+//    public BadJsonFailureResponse() { this(&quot;error_bad_json&quot;); }
+//
+//    /**
+//     * @return this response, serialized as Json
+//     */
+//    String serialize() {
+//      Moshi moshi = new Moshi.Builder().build();
+//      return moshi.adapter(BadJsonFailureResponse.class).toJson(this);
+//    }
+//  }
+//
+//  public record DataSourceFailureResponse(String response_type) {
+//    public DataSourceFailureResponse() { this(&quot;error_data_source&quot;); }
+//
+//    /**
+//     * @return this response, serialized as Json
+//     */
+//    String serialize() {
+//      Moshi moshi = new Moshi.Builder().build();
+//      return moshi.adapter(DataSourceFailureResponse.class).toJson(this);
+//    }
+//  }
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

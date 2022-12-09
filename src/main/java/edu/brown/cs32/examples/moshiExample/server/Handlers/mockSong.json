@@ -1,0 +1,6232 @@
+{"properties": [
+
+  {
+    "artist": "Nelson",
+    "num_lines": 43,
+    "sentiment": {
+      "neg": 0.156,
+      "neu": 0.714,
+      "pos": 0.131,
+      "compound": -0.8046
+    },
+    "tags": [],
+    "f_k_grade": 2.5,
+    "year": 1990,
+    "pos": "27",
+    "num_syllables": 405.0,
+    "difficult_words": 21,
+    "fog_index": 4.800000000000001,
+    "title": "(Can't Live Without Your) Love And Affection",
+    "num_dupes": 23,
+    "flesch_index": 89.75,
+    "num_words": 323
+  },
+  {
+    "artist": "Bryan Adams",
+    "num_lines": 36,
+    "sentiment": {
+      "neg": 0.141,
+      "neu": 0.708,
+      "pos": 0.151,
+      "compound": 0.8643
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": -0.3,
+    "year": "1991",
+    "pos": 1,
+    "num_syllables": 258.3,
+    "difficult_words": 6,
+    "fog_index": 4.4,
+    "title": "(Everything I Do) I Do It For You",
+    "num_dupes": 12,
+    "flesch_index": 107.69,
+    "num_words": 233
+  },
+  {
+    "artist": "Rolling Stones",
+    "num_lines": 37,
+    "sentiment": {
+      "neg": 0.126,
+      "neu": 0.667,
+      "pos": 0.208,
+      "compound": 0.8763
+    },
+    "tags": [
+      "blues",
+      "country",
+      "reggae",
+      "hip-hop/rnb",
+      "rock"
+    ],
+    "f_k_grade": 0.1,
+    "year": "1965",
+    "pos": "3",
+    "num_syllables": 296.1,
+    "difficult_words": 18,
+    "fog_index": 4.800000000000001,
+    "title": "(I Can't Get No) Satisfaction",
+    "num_dupes": 22,
+    "flesch_index": 106.67,
+    "num_words": 260
+  },
+  {
+    "artist": "Cutting Crew",
+    "num_lines": 45,
+    "sentiment": {
+      "neg": 0.164,
+      "neu": 0.766,
+      "pos": 0.07,
+      "compound": -0.9866
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": "1987",
+    "pos": 32,
+    "num_syllables": 372.6,
+    "difficult_words": 26,
+    "fog_index": 4.4,
+    "title": "(I Just) Died In Your Arms",
+    "num_dupes": 31,
+    "flesch_index": 99.23,
+    "num_words": 310
+  },
+  {
+    "artist": "Rare Earth",
+    "num_lines": 31,
+    "sentiment": {
+      "neg": 0.148,
+      "neu": 0.795,
+      "pos": 0.057,
+      "compound": -0.9333
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1970,
+    "pos": 55,
+    "num_syllables": 251.1,
+    "difficult_words": 18,
+    "fog_index": 4.4,
+    "title": "(I Know) I'm Losing You",
+    "num_dupes": 3,
+    "flesch_index": 99.23,
+    "num_words": 203
+  },
+  {
+    "artist": "Chicago",
+    "num_lines": 22,
+    "sentiment": {
+      "neg": 0.013,
+      "neu": 0.895,
+      "pos": 0.092,
+      "compound": 0.8718
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1974,
+    "pos": "72",
+    "num_syllables": 171.0,
+    "difficult_words": 21,
+    "fog_index": 4.4,
+    "title": "(I've Been) Searchin' So Long",
+    "num_dupes": 7,
+    "flesch_index": 99.23,
+    "num_words": 139
+  },
+  {
+    "artist": "Paula Abdul",
+    "num_lines": 62,
+    "sentiment": {
+      "neg": 0.031,
+      "neu": 0.728,
+      "pos": 0.241,
+      "compound": 0.9988
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1990,
+    "pos": 86,
+    "num_syllables": 448.2,
+    "difficult_words": 23,
+    "fog_index": 4.4,
+    "title": "(It's Just) The Way That You Love Me",
+    "num_dupes": 33,
+    "flesch_index": 107.69,
+    "num_words": 401
+  },
+  {
+    "artist": "John Lennon",
+    "num_lines": 28,
+    "sentiment": {
+      "neg": 0.068,
+      "neu": 0.625,
+      "pos": 0.308,
+      "compound": 0.9968
+    },
+    "tags": [
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 3.7,
+    "year": "1981",
+    "pos": 4,
+    "num_syllables": 288.0,
+    "difficult_words": 18,
+    "fog_index": 4.800000000000001,
+    "title": "(Just Like) Starting Over",
+    "num_dupes": 14,
+    "flesch_index": 81.29,
+    "num_words": 212
+  },
+  {
+    "artist": "Human League",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.008,
+      "neu": 0.568,
+      "pos": 0.425,
+      "compound": 0.9988
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 4.1,
+    "year": "1983",
+    "pos": "33",
+    "num_syllables": 300.6,
+    "difficult_words": 26,
+    "fog_index": 4.0,
+    "title": "(Keep Feeling) Fascination",
+    "num_dupes": 42,
+    "flesch_index": 74.86,
+    "num_words": 207
+  },
+  {
+    "artist": "Andy Gibb",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.062,
+      "neu": 0.7,
+      "pos": 0.237,
+      "compound": 0.9913
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": 1978,
+    "pos": 8,
+    "num_syllables": 224.1,
+    "difficult_words": 13,
+    "fog_index": 4.0,
+    "title": "(Love Is) Thicker Than Water",
+    "num_dupes": 18,
+    "flesch_index": 91.78,
+    "num_words": 177
+  },
+  {
+    "artist": "Elvis Presley",
+    "num_lines": 24,
+    "sentiment": {
+      "neg": 0.061,
+      "neu": 0.838,
+      "pos": 0.101,
+      "compound": 0.7958
+    },
+    "tags": [
+      "blues",
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1961",
+    "pos": 71,
+    "num_syllables": 234.9,
+    "difficult_words": 16,
+    "fog_index": 4.800000000000001,
+    "title": "(Marie's The Name) His Latest Flame",
+    "num_dupes": 14,
+    "flesch_index": 89.75,
+    "num_words": 184
+  },
+  {
+    "artist": "Elvis Presley",
+    "num_lines": 21,
+    "sentiment": {
+      "neg": 0.224,
+      "neu": 0.605,
+      "pos": 0.171,
+      "compound": -0.9062
+    },
+    "tags": [
+      "blues",
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.1,
+    "year": "1959",
+    "pos": 34,
+    "num_syllables": 170.1,
+    "difficult_words": 4,
+    "fog_index": 4.800000000000001,
+    "title": "(Now And Then There's) A Fool Such As I",
+    "num_dupes": 9,
+    "flesch_index": 106.67,
+    "num_words": 162
+  },
+  {
+    "artist": "Van Halen",
+    "num_lines": 25,
+    "sentiment": {
+      "neg": 0.067,
+      "neu": 0.528,
+      "pos": 0.406,
+      "compound": 0.9975
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1982,
+    "pos": 88,
+    "num_syllables": 198.0,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "(Oh) Pretty Woman",
+    "num_dupes": 8,
+    "flesch_index": 99.23,
+    "num_words": 159
+  },
+  {
+    "artist": "Andy Gibb",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.391,
+      "neu": 0.564,
+      "pos": 0.045,
+      "compound": -0.9996
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "1979",
+    "pos": 58,
+    "num_syllables": 398.7,
+    "difficult_words": 15,
+    "fog_index": 5.2,
+    "title": "(Our Love) Don't Throw It All Away",
+    "num_dupes": 22,
+    "flesch_index": 97.2,
+    "num_words": 334
+  },
+  {
+    "artist": "K.C. and The Sunshine Band",
+    "num_lines": 36,
+    "sentiment": {
+      "neg": 0.546,
+      "neu": 0.376,
+      "pos": 0.078,
+      "compound": -0.9973
+    },
+    "tags": [
+      "disco",
+      "pop"
+    ],
+    "f_k_grade": 4.5,
+    "year": 1976,
+    "pos": 26,
+    "num_syllables": 321.3,
+    "difficult_words": 7,
+    "fog_index": 4.4,
+    "title": "(Shake, Shake, Shake) Shake Your Booty",
+    "num_dupes": 19,
+    "flesch_index": 73.85,
+    "num_words": 220
+  },
+  {
+    "artist": "Stray Cats",
+    "num_lines": 33,
+    "sentiment": {
+      "neg": 0.109,
+      "neu": 0.805,
+      "pos": 0.086,
+      "compound": -0.7753
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1983",
+    "pos": "84",
+    "num_syllables": 423.0,
+    "difficult_words": 22,
+    "fog_index": 6.0,
+    "title": "(She's) Sexy + 17",
+    "num_dupes": 13,
+    "flesch_index": 95.17,
+    "num_words": 357
+  },
+  {
+    "artist": "Otis Redding",
+    "num_lines": 25,
+    "sentiment": {
+      "neg": 0.018,
+      "neu": 0.927,
+      "pos": 0.055,
+      "compound": 0.5911
+    },
+    "tags": [
+      "blues",
+      "rock",
+      "soul"
+    ],
+    "f_k_grade": 1.3,
+    "year": 1968,
+    "pos": 4,
+    "num_syllables": 223.2,
+    "difficult_words": 20,
+    "fog_index": 4.800000000000001,
+    "title": "(Sittin' On) The Dock Of The Bay",
+    "num_dupes": 10,
+    "flesch_index": 98.21,
+    "num_words": 181
+  },
+  {
+    "artist": "Dionne Warwick",
+    "num_lines": 17,
+    "sentiment": {
+      "neg": 0.05,
+      "neu": 0.851,
+      "pos": 0.099,
+      "compound": 0.6705
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb",
+      "rock",
+      "soul"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1968,
+    "pos": "42",
+    "num_syllables": 175.5,
+    "difficult_words": 5,
+    "fog_index": 5.6000000000000005,
+    "title": "(Theme From) Valley Of The Dolls",
+    "num_dupes": 2,
+    "flesch_index": 104.64,
+    "num_words": 160
+  },
+  {
+    "artist": "Carpenters",
+    "num_lines": 35,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.866,
+      "pos": 0.134,
+      "compound": 0.9755
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": 1970,
+    "pos": 2,
+    "num_syllables": 236.7,
+    "difficult_words": 12,
+    "fog_index": 4.0,
+    "title": "(They Long To Be) Close To You",
+    "num_dupes": 28,
+    "flesch_index": 100.24,
+    "num_words": 203
+  },
+  {
+    "artist": "Sean Paul",
+    "num_lines": 78,
+    "sentiment": {
+      "neg": 0.03,
+      "neu": 0.8,
+      "pos": 0.171,
+      "compound": 0.9985
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 2.5,
+    "year": 2006,
+    "pos": 37,
+    "num_syllables": 947.7,
+    "difficult_words": 25,
+    "fog_index": 6.0,
+    "title": "(When You Gonna) Give It Up To Me",
+    "num_dupes": 57,
+    "flesch_index": 95.17,
+    "num_words": 820
+  },
+  {
+    "artist": "Beastie Boys",
+    "num_lines": 22,
+    "sentiment": {
+      "neg": 0.175,
+      "neu": 0.664,
+      "pos": 0.16,
+      "compound": 0.3392
+    },
+    "tags": [
+      "electronic/dance",
+      "hip-hop/rnb",
+      "rock",
+      "religious"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1987",
+    "pos": 98,
+    "num_syllables": 181.8,
+    "difficult_words": 19,
+    "fog_index": 4.800000000000001,
+    "title": "(You Gotta) Fight For Your Right",
+    "num_dupes": 18,
+    "flesch_index": 98.21,
+    "num_words": 157
+  },
+  {
+    "artist": "Elvis Presley",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.303,
+      "neu": 0.429,
+      "pos": 0.267,
+      "compound": -0.9413
+    },
+    "tags": [
+      "blues",
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1963",
+    "pos": "69",
+    "num_syllables": 230.4,
+    "difficult_words": 10,
+    "fog_index": 3.6,
+    "title": "(You're The) Devil In Disguise",
+    "num_dupes": 28,
+    "flesch_index": 92.8,
+    "num_words": 178
+  },
+  {
+    "artist": "Paul Anka",
+    "num_lines": 34,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.686,
+      "pos": 0.314,
+      "compound": 0.9983
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": 1974,
+    "pos": 26,
+    "num_syllables": 281.7,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "(You're) Having My Baby",
+    "num_dupes": 14,
+    "flesch_index": 99.23,
+    "num_words": 235
+  },
+  {
+    "artist": "Rita Coolidge",
+    "num_lines": 26,
+    "sentiment": {
+      "neg": 0.033,
+      "neu": 0.773,
+      "pos": 0.194,
+      "compound": 0.9864
+    },
+    "tags": [
+      "country",
+      "pop"
+    ],
+    "f_k_grade": 3.3,
+    "year": "1977",
+    "pos": 8,
+    "num_syllables": 235.8,
+    "difficult_words": 14,
+    "fog_index": 4.4,
+    "title": "(Your Love Has Lifted Me) Higher And Higher",
+    "num_dupes": 18,
+    "flesch_index": 82.31,
+    "num_words": 172
+  },
+  {
+    "artist": "Jackie Wilson",
+    "num_lines": 46,
+    "sentiment": {
+      "neg": 0.011,
+      "neu": 0.748,
+      "pos": 0.241,
+      "compound": 0.9974
+    },
+    "tags": [
+      "soul"
+    ],
+    "f_k_grade": 1.7,
+    "year": "1967",
+    "pos": 53,
+    "num_syllables": 332.1,
+    "difficult_words": 23,
+    "fog_index": 4.0,
+    "title": "(Your Love Keeps Lifting Me) Higher And Higher",
+    "num_dupes": 21,
+    "flesch_index": 91.78,
+    "num_words": 260
+  },
+  {
+    "artist": "Britney Spears",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.126,
+      "neu": 0.812,
+      "pos": 0.062,
+      "compound": -0.9792
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 2.9,
+    "year": "1999",
+    "pos": 5,
+    "num_syllables": 391.5,
+    "difficult_words": 17,
+    "fog_index": 5.2,
+    "title": "...Baby One More Time",
+    "num_dupes": 25,
+    "flesch_index": 88.74,
+    "num_words": 313
+  },
+  {
+    "artist": "Amerie",
+    "num_lines": 70,
+    "sentiment": {
+      "neg": 0.009,
+      "neu": 0.904,
+      "pos": 0.087,
+      "compound": 0.9821
+    },
+    "tags": [],
+    "f_k_grade": -1.1,
+    "year": "2005",
+    "pos": 67,
+    "num_syllables": 511.2,
+    "difficult_words": 22,
+    "fog_index": 4.800000000000001,
+    "title": "1 Thing",
+    "num_dupes": 53,
+    "flesch_index": 115.13,
+    "num_words": 535
+  },
+  {
+    "artist": "Ciara",
+    "num_lines": 51,
+    "sentiment": {
+      "neg": 0.046,
+      "neu": 0.814,
+      "pos": 0.14,
+      "compound": 0.994
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 2.1,
+    "year": "2005",
+    "pos": 5,
+    "num_syllables": 584.1,
+    "difficult_words": 40,
+    "fog_index": 5.6000000000000005,
+    "title": "1, 2 Step",
+    "num_dupes": 24,
+    "flesch_index": 96.18,
+    "num_words": 475
+  },
+  {
+    "artist": "Skid Row",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.158,
+      "neu": 0.729,
+      "pos": 0.112,
+      "compound": -0.9445
+    },
+    "tags": [],
+    "f_k_grade": 0.5,
+    "year": "1989",
+    "pos": 61,
+    "num_syllables": 358.2,
+    "difficult_words": 26,
+    "fog_index": 4.0,
+    "title": "18 And Life",
+    "num_dupes": 22,
+    "flesch_index": 100.24,
+    "num_words": 297
+  },
+  {
+    "artist": "Mark Wills",
+    "num_lines": 47,
+    "sentiment": {
+      "neg": 0.076,
+      "neu": 0.885,
+      "pos": 0.039,
+      "compound": -0.8885
+    },
+    "tags": [
+      "country"
+    ],
+    "f_k_grade": 0.9,
+    "year": "2003",
+    "pos": "84",
+    "num_syllables": 349.2,
+    "difficult_words": 42,
+    "fog_index": 4.4,
+    "title": "19 Somethin'",
+    "num_dupes": 17,
+    "flesch_index": 99.23,
+    "num_words": 287
+  },
+  {
+    "artist": "Smashing Pumpkins",
+    "num_lines": 33,
+    "sentiment": {
+      "neg": 0.144,
+      "neu": 0.783,
+      "pos": 0.073,
+      "compound": -0.9097
+    },
+    "tags": [
+      "alternative/indie",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1996,
+    "pos": 44,
+    "num_syllables": 274.5,
+    "difficult_words": 27,
+    "fog_index": 4.4,
+    "title": "1979",
+    "num_dupes": 10,
+    "flesch_index": 99.23,
+    "num_words": 222
+  },
+  {
+    "artist": "Rolling Stones",
+    "num_lines": 59,
+    "sentiment": {
+      "neg": 0.172,
+      "neu": 0.745,
+      "pos": 0.083,
+      "compound": -0.9868
+    },
+    "tags": [
+      "blues",
+      "country",
+      "reggae",
+      "hip-hop/rnb",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1966,
+    "pos": 62,
+    "num_syllables": 492.3,
+    "difficult_words": 28,
+    "fog_index": 4.4,
+    "title": "19th Nervous Breakdown",
+    "num_dupes": 39,
+    "flesch_index": 90.77,
+    "num_words": 370
+  },
+  {
+    "artist": "Bone Thugs-N-Harmony",
+    "num_lines": 153,
+    "sentiment": {
+      "neg": 0.042,
+      "neu": 0.929,
+      "pos": 0.03,
+      "compound": -0.9258
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "1995",
+    "pos": 89,
+    "num_syllables": 1797.3,
+    "difficult_words": 109,
+    "fog_index": 6.0,
+    "title": "1st Of Tha Month",
+    "num_dupes": 58,
+    "flesch_index": 103.63,
+    "num_words": 1619
+  },
+  {
+    "artist": "Spice Girls",
+    "num_lines": 56,
+    "sentiment": {
+      "neg": 0.022,
+      "neu": 0.705,
+      "pos": 0.273,
+      "compound": 0.9989
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 2.1,
+    "year": "1997",
+    "pos": 35,
+    "num_syllables": 524.7,
+    "difficult_words": 24,
+    "fog_index": 4.4,
+    "title": "2 Become 1",
+    "num_dupes": 48,
+    "flesch_index": 90.77,
+    "num_words": 391
+  },
+  {
+    "artist": "Green Day",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.158,
+      "neu": 0.787,
+      "pos": 0.054,
+      "compound": -0.9837
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": -0.3,
+    "year": "2009",
+    "pos": "78",
+    "num_syllables": 273.6,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "21 Guns",
+    "num_dupes": 21,
+    "flesch_index": 107.69,
+    "num_words": 247
+  },
+  {
+    "artist": "50 Cent",
+    "num_lines": 70,
+    "sentiment": {
+      "neg": 0.032,
+      "neu": 0.724,
+      "pos": 0.245,
+      "compound": 0.9994
+    },
+    "tags": [
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 0.9,
+    "year": "2003",
+    "pos": 14,
+    "num_syllables": 711.0,
+    "difficult_words": 43,
+    "fog_index": 5.6000000000000005,
+    "title": "21 Questions",
+    "num_dupes": 32,
+    "flesch_index": 104.64,
+    "num_words": 632
+  },
+  {
+    "artist": "Taylor Swift",
+    "num_lines": 50,
+    "sentiment": {
+      "neg": 0.068,
+      "neu": 0.675,
+      "pos": 0.257,
+      "compound": 0.9977
+    },
+    "tags": [
+      "country",
+      "pop"
+    ],
+    "f_k_grade": 2.5,
+    "year": "2013",
+    "pos": 71,
+    "num_syllables": 526.5,
+    "difficult_words": 33,
+    "fog_index": 4.800000000000001,
+    "title": "22",
+    "num_dupes": 25,
+    "flesch_index": 89.75,
+    "num_words": 393
+  },
+  {
+    "artist": "Chicago",
+    "num_lines": 18,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.915,
+      "pos": 0.085,
+      "compound": 0.765
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1970,
+    "pos": 61,
+    "num_syllables": 130.5,
+    "difficult_words": 16,
+    "fog_index": 4.0,
+    "title": "25 Or 6 To 4",
+    "num_dupes": 7,
+    "flesch_index": 91.78,
+    "num_words": 100
+  },
+  {
+    "artist": "Britney Spears",
+    "num_lines": 89,
+    "sentiment": {
+      "neg": 0.023,
+      "neu": 0.847,
+      "pos": 0.13,
+      "compound": 0.9919
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 1.3,
+    "year": "2009",
+    "pos": "87",
+    "num_syllables": 470.7,
+    "difficult_words": 24,
+    "fog_index": 3.6,
+    "title": "3",
+    "num_dupes": 69,
+    "flesch_index": 92.8,
+    "num_words": 373
+  },
+  {
+    "artist": "Britney Spears",
+    "num_lines": 89,
+    "sentiment": {
+      "neg": 0.023,
+      "neu": 0.847,
+      "pos": 0.13,
+      "compound": 0.9919
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 1.3,
+    "year": 2010,
+    "pos": "69",
+    "num_syllables": 470.7,
+    "difficult_words": 24,
+    "fog_index": 3.6,
+    "title": "3",
+    "num_dupes": 69,
+    "flesch_index": 92.8,
+    "num_words": 373
+  },
+  {
+    "artist": "KLF",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.009,
+      "neu": 0.948,
+      "pos": 0.044,
+      "compound": 0.7936
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": "1991",
+    "pos": 61,
+    "num_syllables": 208.8,
+    "difficult_words": 25,
+    "fog_index": 4.0,
+    "title": "3 A.M. Eternal",
+    "num_dupes": 9,
+    "flesch_index": 100.24,
+    "num_words": 172
+  },
+  {
+    "artist": "Madonna",
+    "num_lines": 61,
+    "sentiment": {
+      "neg": 0.057,
+      "neu": 0.804,
+      "pos": 0.138,
+      "compound": 0.982
+    },
+    "tags": [
+      "electronic/dance",
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 0.1,
+    "year": 2008,
+    "pos": 23,
+    "num_syllables": 498.6,
+    "difficult_words": 22,
+    "fog_index": 4.800000000000001,
+    "title": "4 Minutes",
+    "num_dupes": 108,
+    "flesch_index": 106.67,
+    "num_words": 448
+  },
+  {
+    "artist": "Boyz II Men",
+    "num_lines": 61,
+    "sentiment": {
+      "neg": 0.049,
+      "neu": 0.818,
+      "pos": 0.132,
+      "compound": 0.9908
+    },
+    "tags": [
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1997",
+    "pos": "30",
+    "num_syllables": 550.8,
+    "difficult_words": 32,
+    "fog_index": 4.800000000000001,
+    "title": "4 Seasons Of Loneliness",
+    "num_dupes": 38,
+    "flesch_index": 89.75,
+    "num_words": 430
+  },
+  {
+    "artist": "Boyz II Men",
+    "num_lines": 61,
+    "sentiment": {
+      "neg": 0.049,
+      "neu": 0.818,
+      "pos": 0.132,
+      "compound": 0.9908
+    },
+    "tags": [
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 2.5,
+    "year": 1998,
+    "pos": "96",
+    "num_syllables": 550.8,
+    "difficult_words": 32,
+    "fog_index": 4.800000000000001,
+    "title": "4 Seasons Of Loneliness",
+    "num_dupes": 38,
+    "flesch_index": 89.75,
+    "num_words": 430
+  },
+  {
+    "artist": "T-Pain",
+    "num_lines": 98,
+    "sentiment": {
+      "neg": 0.055,
+      "neu": 0.842,
+      "pos": 0.103,
+      "compound": 0.9861
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 0.1,
+    "year": 2012,
+    "pos": 86,
+    "num_syllables": 823.5,
+    "difficult_words": 42,
+    "fog_index": 4.800000000000001,
+    "title": "5 O'Clock",
+    "num_dupes": 64,
+    "flesch_index": 106.67,
+    "num_words": 726
+  },
+  {
+    "artist": "Paul Simon",
+    "num_lines": 50,
+    "sentiment": {
+      "neg": 0.079,
+      "neu": 0.754,
+      "pos": 0.167,
+      "compound": 0.9907
+    },
+    "tags": [
+      "classical/soundtrack",
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1976,
+    "pos": 8,
+    "num_syllables": 378.9,
+    "difficult_words": 19,
+    "fog_index": 4.4,
+    "title": "50 Ways To Leave Your Lover",
+    "num_dupes": 32,
+    "flesch_index": 107.69,
+    "num_words": 349
+  },
+  {
+    "artist": "Train",
+    "num_lines": 54,
+    "sentiment": {
+      "neg": 0.124,
+      "neu": 0.601,
+      "pos": 0.275,
+      "compound": 0.9975
+    },
+    "tags": [
+      "alternative/indie",
+      "pop"
+    ],
+    "f_k_grade": 0.9,
+    "year": 2012,
+    "pos": "81",
+    "num_syllables": 438.3,
+    "difficult_words": 26,
+    "fog_index": 4.4,
+    "title": "50 Ways To Say Goodbye",
+    "num_dupes": 36,
+    "flesch_index": 99.23,
+    "num_words": 373
+  },
+  {
+    "artist": "Lil Wayne",
+    "num_lines": 85,
+    "sentiment": {
+      "neg": 0.236,
+      "neu": 0.645,
+      "pos": 0.119,
+      "compound": -0.9992
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": "2011",
+    "pos": 41,
+    "num_syllables": 977.4,
+    "difficult_words": 130,
+    "fog_index": 5.6000000000000005,
+    "title": "6 Foot 7 Foot",
+    "num_dupes": 22,
+    "flesch_index": 96.18,
+    "num_words": 788
+  },
+  {
+    "artist": "Wilson Pickett",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.057,
+      "neu": 0.909,
+      "pos": 0.035,
+      "compound": -0.7472
+    },
+    "tags": [
+      "soul"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1966,
+    "pos": 100,
+    "num_syllables": 216.9,
+    "difficult_words": 16,
+    "fog_index": 4.4,
+    "title": "634-5789",
+    "num_dupes": 22,
+    "flesch_index": 107.69,
+    "num_words": 194
+  },
+  {
+    "artist": "Fetty Wap",
+    "num_lines": 70,
+    "sentiment": {
+      "neg": 0.095,
+      "neu": 0.761,
+      "pos": 0.144,
+      "compound": 0.9548
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "2015",
+    "pos": "21",
+    "num_syllables": 568.8,
+    "difficult_words": 51,
+    "fog_index": 4.800000000000001,
+    "title": "679",
+    "num_dupes": 35,
+    "flesch_index": 98.21,
+    "num_words": 492
+  },
+  {
+    "artist": "Craig David",
+    "num_lines": 70,
+    "sentiment": {
+      "neg": 0.028,
+      "neu": 0.793,
+      "pos": 0.179,
+      "compound": 0.9977
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": 2002,
+    "pos": 52,
+    "num_syllables": 602.1,
+    "difficult_words": 41,
+    "fog_index": 4.800000000000001,
+    "title": "7 Days",
+    "num_dupes": 27,
+    "flesch_index": 98.21,
+    "num_words": 497
+  },
+  {
+    "artist": "Miley Cyrus",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.166,
+      "neu": 0.616,
+      "pos": 0.218,
+      "compound": 0.9801
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": 2008,
+    "pos": 92,
+    "num_syllables": 424.8,
+    "difficult_words": 24,
+    "fog_index": 4.4,
+    "title": "7 Things",
+    "num_dupes": 22,
+    "flesch_index": 99.23,
+    "num_words": 353
+  },
+  {
+    "artist": "Dolly Parton",
+    "num_lines": 65,
+    "sentiment": {
+      "neg": 0.087,
+      "neu": 0.828,
+      "pos": 0.085,
+      "compound": -0.3736
+    },
+    "tags": [
+      "country",
+      "folk",
+      "pop"
+    ],
+    "f_k_grade": -0.7,
+    "year": "1981",
+    "pos": "9",
+    "num_syllables": 402.3,
+    "difficult_words": 28,
+    "fog_index": 4.0,
+    "title": "9 To 5",
+    "num_dupes": 36,
+    "flesch_index": 108.7,
+    "num_words": 360
+  },
+  {
+    "artist": "Nena",
+    "num_lines": 38,
+    "sentiment": {
+      "neg": 0.098,
+      "neu": 0.902,
+      "pos": 0.0,
+      "compound": -0.9636
+    },
+    "tags": [],
+    "f_k_grade": 3.7,
+    "year": 1984,
+    "pos": 28,
+    "num_syllables": 280.8,
+    "difficult_words": 46,
+    "fog_index": 3.6,
+    "title": "99 Luftballons",
+    "num_dupes": 8,
+    "flesch_index": 75.88,
+    "num_words": 189
+  },
+  {
+    "artist": "Elvis Presley",
+    "num_lines": 24,
+    "sentiment": {
+      "neg": 0.201,
+      "neu": 0.588,
+      "pos": 0.211,
+      "compound": 0.8897
+    },
+    "tags": [
+      "blues",
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": "1959",
+    "pos": "30",
+    "num_syllables": 249.3,
+    "difficult_words": 14,
+    "fog_index": 5.6000000000000005,
+    "title": "A Big Hunk O' Love",
+    "num_dupes": 8,
+    "flesch_index": 96.18,
+    "num_words": 216
+  },
+  {
+    "artist": "Nat King Cole",
+    "num_lines": 24,
+    "sentiment": {
+      "neg": 0.087,
+      "neu": 0.634,
+      "pos": 0.28,
+      "compound": 0.9849
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "swing"
+    ],
+    "f_k_grade": 0.5,
+    "year": "1955",
+    "pos": 20,
+    "num_syllables": 157.5,
+    "difficult_words": 13,
+    "fog_index": 4.0,
+    "title": "A Blossom Fell",
+    "num_dupes": 15,
+    "flesch_index": 100.24,
+    "num_words": 132
+  },
+  {
+    "artist": "Johnny Cash",
+    "num_lines": 67,
+    "sentiment": {
+      "neg": 0.142,
+      "neu": 0.754,
+      "pos": 0.104,
+      "compound": -0.9864
+    },
+    "tags": [
+      "blues",
+      "country",
+      "folk",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1969",
+    "pos": "36",
+    "num_syllables": 666.9,
+    "difficult_words": 37,
+    "fog_index": 5.6000000000000005,
+    "title": "A Boy Named Sue",
+    "num_dupes": 18,
+    "flesch_index": 104.64,
+    "num_words": 608
+  },
+  {
+    "artist": "Sonny and Cher",
+    "num_lines": 20,
+    "sentiment": {
+      "neg": 0.18,
+      "neu": 0.653,
+      "pos": 0.167,
+      "compound": 0.4625
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1972,
+    "pos": 70,
+    "num_syllables": 149.4,
+    "difficult_words": 5,
+    "fog_index": 4.4,
+    "title": "A Cowboy's Work Is Never Done",
+    "num_dupes": 3,
+    "flesch_index": 107.69,
+    "num_words": 132
+  },
+  {
+    "artist": "George Michael",
+    "num_lines": 21,
+    "sentiment": {
+      "neg": 0.198,
+      "neu": 0.662,
+      "pos": 0.141,
+      "compound": -0.8092
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1986,
+    "pos": 98,
+    "num_syllables": 206.1,
+    "difficult_words": 8,
+    "fog_index": 5.2,
+    "title": "A Different Corner",
+    "num_dupes": 6,
+    "flesch_index": 97.2,
+    "num_words": 170
+  },
+  {
+    "artist": "Andy Williams",
+    "num_lines": 29,
+    "sentiment": {
+      "neg": 0.147,
+      "neu": 0.688,
+      "pos": 0.165,
+      "compound": 0.8638
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": 1964,
+    "pos": "96",
+    "num_syllables": 273.6,
+    "difficult_words": 8,
+    "fog_index": 4.800000000000001,
+    "title": "A Fool Never Learns",
+    "num_dupes": 18,
+    "flesch_index": 98.21,
+    "num_words": 226
+  },
+  {
+    "artist": "Phil Collins",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.05,
+      "neu": 0.767,
+      "pos": 0.183,
+      "compound": 0.9719
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": -0.7,
+    "year": 1988,
+    "pos": 29,
+    "num_syllables": 193.5,
+    "difficult_words": 14,
+    "fog_index": 4.0,
+    "title": "A Groovy Kind Of Love",
+    "num_dupes": 17,
+    "flesch_index": 108.7,
+    "num_words": 169
+  },
+  {
+    "artist": "Doris Day",
+    "num_lines": 31,
+    "sentiment": {
+      "neg": 0.016,
+      "neu": 0.778,
+      "pos": 0.206,
+      "compound": 0.9958
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 2.5,
+    "year": 1952,
+    "pos": 17,
+    "num_syllables": 362.7,
+    "difficult_words": 14,
+    "fog_index": 6.0,
+    "title": "A Guy Is A Guy",
+    "num_dupes": 18,
+    "flesch_index": 95.17,
+    "num_words": 314
+  },
+  {
+    "artist": "Beatles",
+    "num_lines": 41,
+    "sentiment": {
+      "neg": 0.051,
+      "neu": 0.831,
+      "pos": 0.118,
+      "compound": 0.9464
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1964,
+    "pos": 13,
+    "num_syllables": 271.8,
+    "difficult_words": 9,
+    "fog_index": 4.4,
+    "title": "A Hard Day's Night",
+    "num_dupes": 32,
+    "flesch_index": 107.69,
+    "num_words": 252
+  },
+  {
+    "artist": "America",
+    "num_lines": 34,
+    "sentiment": {
+      "neg": 0.125,
+      "neu": 0.802,
+      "pos": 0.073,
+      "compound": -0.91
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": 1972,
+    "pos": "27",
+    "num_syllables": 337.5,
+    "difficult_words": 14,
+    "fog_index": 5.2,
+    "title": "A Horse With No Name",
+    "num_dupes": 21,
+    "flesch_index": 97.2,
+    "num_words": 291
+  },
+  {
+    "artist": "Dr. Hook",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.012,
+      "neu": 0.834,
+      "pos": 0.155,
+      "compound": 0.9883
+    },
+    "tags": [],
+    "f_k_grade": 0.1,
+    "year": 1976,
+    "pos": 46,
+    "num_syllables": 265.5,
+    "difficult_words": 10,
+    "fog_index": 4.800000000000001,
+    "title": "A Little Bit More",
+    "num_dupes": 13,
+    "flesch_index": 106.67,
+    "num_words": 235
+  },
+  {
+    "artist": "Burl Ives",
+    "num_lines": 20,
+    "sentiment": {
+      "neg": 0.037,
+      "neu": 0.88,
+      "pos": 0.084,
+      "compound": 0.8885
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": 1962,
+    "pos": 46,
+    "num_syllables": 239.4,
+    "difficult_words": 10,
+    "fog_index": 6.0,
+    "title": "A Little Bitty Tear",
+    "num_dupes": 11,
+    "flesch_index": 103.63,
+    "num_words": 212
+  },
+  {
+    "artist": "Cliff Richard",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.037,
+      "neu": 0.497,
+      "pos": 0.466,
+      "compound": 0.9997
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1981",
+    "pos": 61,
+    "num_syllables": 401.4,
+    "difficult_words": 8,
+    "fog_index": 4.800000000000001,
+    "title": "A Little In Love",
+    "num_dupes": 17,
+    "flesch_index": 89.75,
+    "num_words": 316
+  },
+  {
+    "artist": "Olivia Newton-John",
+    "num_lines": 35,
+    "sentiment": {
+      "neg": 0.091,
+      "neu": 0.648,
+      "pos": 0.261,
+      "compound": 0.9969
+    },
+    "tags": [],
+    "f_k_grade": 2.9,
+    "year": "1979",
+    "pos": 17,
+    "num_syllables": 358.2,
+    "difficult_words": 6,
+    "fog_index": 5.2,
+    "title": "A Little More Love",
+    "num_dupes": 27,
+    "flesch_index": 88.74,
+    "num_words": 283
+  },
+  {
+    "artist": "Sheila E.",
+    "num_lines": 29,
+    "sentiment": {
+      "neg": 0.13,
+      "neu": 0.624,
+      "pos": 0.246,
+      "compound": 0.9873
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1986,
+    "pos": 83,
+    "num_syllables": 300.6,
+    "difficult_words": 13,
+    "fog_index": 5.2,
+    "title": "A Love Bizarre",
+    "num_dupes": 15,
+    "flesch_index": 97.2,
+    "num_words": 255
+  },
+  {
+    "artist": "Anne Murray",
+    "num_lines": 26,
+    "sentiment": {
+      "neg": 0.011,
+      "neu": 0.779,
+      "pos": 0.21,
+      "compound": 0.9925
+    },
+    "tags": [
+      "country",
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": 1974,
+    "pos": 80,
+    "num_syllables": 233.1,
+    "difficult_words": 10,
+    "fog_index": 5.2,
+    "title": "A Love Song",
+    "num_dupes": 16,
+    "flesch_index": 105.66,
+    "num_words": 210
+  },
+  {
+    "artist": "Lil Wayne",
+    "num_lines": 69,
+    "sentiment": {
+      "neg": 0.191,
+      "neu": 0.679,
+      "pos": 0.13,
+      "compound": -0.9951
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": 2008,
+    "pos": 43,
+    "num_syllables": 668.7,
+    "difficult_words": 91,
+    "fog_index": 4.800000000000001,
+    "title": "A Milli",
+    "num_dupes": 5,
+    "flesch_index": 98.21,
+    "num_words": 551
+  },
+  {
+    "artist": "Kelly Clarkson",
+    "num_lines": 44,
+    "sentiment": {
+      "neg": 0.008,
+      "neu": 0.68,
+      "pos": 0.312,
+      "compound": 0.9981
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.9,
+    "year": 2002,
+    "pos": "39",
+    "num_syllables": 352.8,
+    "difficult_words": 20,
+    "fog_index": 4.0,
+    "title": "A Moment Like This",
+    "num_dupes": 30,
+    "flesch_index": 83.32,
+    "num_words": 260
+  },
+  {
+    "artist": "Celine Dion",
+    "num_lines": 43,
+    "sentiment": {
+      "neg": 0.105,
+      "neu": 0.774,
+      "pos": 0.121,
+      "compound": 0.8739
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": -0.3,
+    "year": 2002,
+    "pos": 91,
+    "num_syllables": 327.6,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "A New Day has Come",
+    "num_dupes": 30,
+    "flesch_index": 107.69,
+    "num_words": 294
+  },
+  {
+    "artist": "Dinah Washington",
+    "num_lines": 47,
+    "sentiment": {
+      "neg": 0.08,
+      "neu": 0.618,
+      "pos": 0.302,
+      "compound": 0.9981
+    },
+    "tags": [
+      "blues",
+      "jazz",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 1.3,
+    "year": 1960,
+    "pos": "75",
+    "num_syllables": 394.2,
+    "difficult_words": 22,
+    "fog_index": 4.800000000000001,
+    "title": "A Rockin' Good Way",
+    "num_dupes": 21,
+    "flesch_index": 98.21,
+    "num_words": 340
+  },
+  {
+    "artist": "Aretha Franklin",
+    "num_lines": 58,
+    "sentiment": {
+      "neg": 0.054,
+      "neu": 0.885,
+      "pos": 0.061,
+      "compound": 0.7209
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "hip-hop/rnb",
+      "rock",
+      "soul"
+    ],
+    "f_k_grade": 1.3,
+    "year": 1998,
+    "pos": 95,
+    "num_syllables": 499.5,
+    "difficult_words": 30,
+    "fog_index": 4.800000000000001,
+    "title": "A Rose Is Still A Rose",
+    "num_dupes": 31,
+    "flesch_index": 98.21,
+    "num_words": 427
+  },
+  {
+    "artist": "Coldplay",
+    "num_lines": 19,
+    "sentiment": {
+      "neg": 0.099,
+      "neu": 0.846,
+      "pos": 0.055,
+      "compound": -0.661
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.5,
+    "year": 2014,
+    "pos": "51",
+    "num_syllables": 173.7,
+    "difficult_words": 6,
+    "fog_index": 5.2,
+    "title": "A Sky Full Of Stars",
+    "num_dupes": 8,
+    "flesch_index": 105.66,
+    "num_words": 153
+  },
+  {
+    "artist": "Boyz II Men",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.033,
+      "neu": 0.727,
+      "pos": 0.24,
+      "compound": 0.9983
+    },
+    "tags": [
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1998,
+    "pos": "30",
+    "num_syllables": 495.0,
+    "difficult_words": 23,
+    "fog_index": 5.2,
+    "title": "A Song For Mama",
+    "num_dupes": 22,
+    "flesch_index": 97.2,
+    "num_words": 418
+  },
+  {
+    "artist": "Chad and Jeremy",
+    "num_lines": 28,
+    "sentiment": {
+      "neg": 0.122,
+      "neu": 0.71,
+      "pos": 0.168,
+      "compound": 0.872
+    },
+    "tags": [
+      "folk"
+    ],
+    "f_k_grade": -0.7,
+    "year": 1964,
+    "pos": 50,
+    "num_syllables": 179.1,
+    "difficult_words": 15,
+    "fog_index": 4.0,
+    "title": "A Summer Song",
+    "num_dupes": 15,
+    "flesch_index": 108.7,
+    "num_words": 161
+  },
+  {
+    "artist": "Ricky Nelson",
+    "num_lines": 29,
+    "sentiment": {
+      "neg": 0.027,
+      "neu": 0.682,
+      "pos": 0.292,
+      "compound": 0.995
+    },
+    "tags": [],
+    "f_k_grade": 0.5,
+    "year": "1957",
+    "pos": 25,
+    "num_syllables": 180.0,
+    "difficult_words": 8,
+    "fog_index": 4.0,
+    "title": "A Teenager's Romance",
+    "num_dupes": 19,
+    "flesch_index": 100.24,
+    "num_words": 148
+  },
+  {
+    "artist": "Vanessa Carlton",
+    "num_lines": 44,
+    "sentiment": {
+      "neg": 0.054,
+      "neu": 0.922,
+      "pos": 0.025,
+      "compound": -0.7392
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": -0.3,
+    "year": 2002,
+    "pos": "6",
+    "num_syllables": 302.4,
+    "difficult_words": 20,
+    "fog_index": 4.4,
+    "title": "A Thousand Miles",
+    "num_dupes": 23,
+    "flesch_index": 107.69,
+    "num_words": 268
+  },
+
+  {
+    "artist": "Marty Robbins",
+    "num_lines": 18,
+    "sentiment": {
+      "neg": 0.033,
+      "neu": 0.862,
+      "pos": 0.104,
+      "compound": 0.8625
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": "1957",
+    "pos": 17,
+    "num_syllables": 142.2,
+    "difficult_words": 6,
+    "fog_index": 4.4,
+    "title": "A White Sport Coat",
+    "num_dupes": 14,
+    "flesch_index": 99.23,
+    "num_words": 120
+  },
+  {
+    "artist": "Procol Harum",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.011,
+      "neu": 0.949,
+      "pos": 0.04,
+      "compound": 0.5423
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1967",
+    "pos": 38,
+    "num_syllables": 237.6,
+    "difficult_words": 25,
+    "fog_index": 4.4,
+    "title": "A Whiter Shade Of Pale",
+    "num_dupes": 16,
+    "flesch_index": 99.23,
+    "num_words": 196
+  },
+  {
+    "artist": "Peabo Bryson",
+    "num_lines": 51,
+    "sentiment": {
+      "neg": 0.033,
+      "neu": 0.854,
+      "pos": 0.114,
+      "compound": 0.9638
+    },
+    "tags": [
+      "soul"
+    ],
+    "f_k_grade": 1.7,
+    "year": "1993",
+    "pos": "18",
+    "num_syllables": 345.6,
+    "difficult_words": 30,
+    "fog_index": 4.0,
+    "title": "A Whole New World",
+    "num_dupes": 22,
+    "flesch_index": 91.78,
+    "num_words": 268
+  },
+  {
+    "artist": "Ray Parker Jr.",
+    "num_lines": 45,
+    "sentiment": {
+      "neg": 0.038,
+      "neu": 0.704,
+      "pos": 0.258,
+      "compound": 0.9979
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "1981",
+    "pos": 16,
+    "num_syllables": 428.4,
+    "difficult_words": 30,
+    "fog_index": 4.800000000000001,
+    "title": "A Woman Needs Love",
+    "num_dupes": 14,
+    "flesch_index": 98.21,
+    "num_words": 352
+  },
+  {
+    "artist": "Alicia Keys",
+    "num_lines": 48,
+    "sentiment": {
+      "neg": 0.044,
+      "neu": 0.767,
+      "pos": 0.189,
+      "compound": 0.9953
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": 0.9,
+    "year": 2002,
+    "pos": "51",
+    "num_syllables": 513.0,
+    "difficult_words": 29,
+    "fog_index": 5.6000000000000005,
+    "title": "A Woman's Worth",
+    "num_dupes": 31,
+    "flesch_index": 104.64,
+    "num_words": 458
+  } ,
+  {
+    "artist": "Rolling Stones",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.065,
+      "neu": 0.665,
+      "pos": 0.27,
+      "compound": 0.993
+    },
+    "tags": [
+      "blues",
+      "country",
+      "reggae",
+      "hip-hop/rnb",
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": 1980,
+    "pos": 53,
+    "num_syllables": 288.0,
+    "difficult_words": 17,
+    "fog_index": 4.800000000000001,
+    "title": "Emotional Rescue",
+    "num_dupes": 10,
+    "flesch_index": 89.75,
+    "num_words": 229
+  },
+  {
+    "artist": "Mariah Carey",
+    "num_lines": 42,
+    "sentiment": {
+      "neg": 0.01,
+      "neu": 0.756,
+      "pos": 0.234,
+      "compound": 0.9942
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 2.9,
+    "year": "1991",
+    "pos": 22,
+    "num_syllables": 332.1,
+    "difficult_words": 23,
+    "fog_index": 4.0,
+    "title": "Emotions",
+    "num_dupes": 23,
+    "flesch_index": 83.32,
+    "num_words": 240
+  },
+  {
+    "artist": "Jay-Z",
+    "num_lines": 84,
+    "sentiment": {
+      "neg": 0.057,
+      "neu": 0.773,
+      "pos": 0.17,
+      "compound": 0.9981
+    },
+    "tags": [
+      "hip-hop/rnb",
+      "religious"
+    ],
+    "f_k_grade": 1.3,
+    "year": 2010,
+    "pos": "21",
+    "num_syllables": 835.2,
+    "difficult_words": 92,
+    "fog_index": 4.800000000000001,
+    "title": "Empire State of Mind",
+    "num_dupes": 33,
+    "flesch_index": 98.21,
+    "num_words": 670
+  },
+  {
+    "artist": "Elton John",
+    "num_lines": 47,
+    "sentiment": {
+      "neg": 0.064,
+      "neu": 0.779,
+      "pos": 0.157,
+      "compound": 0.9912
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.3,
+    "year": 1982,
+    "pos": 76,
+    "num_syllables": 455.4,
+    "difficult_words": 21,
+    "fog_index": 4.800000000000001,
+    "title": "Empty Garden",
+    "num_dupes": 34,
+    "flesch_index": 98.21,
+    "num_words": 368
+  },
+  {
+    "artist": "Platters",
+    "num_lines": 16,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.531,
+      "pos": 0.469,
+      "compound": 0.9984
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": "1959",
+    "pos": 64,
+    "num_syllables": 182.7,
+    "difficult_words": 14,
+    "fog_index": 5.6000000000000005,
+    "title": "Enchanted",
+    "num_dupes": 9,
+    "flesch_index": 96.18,
+    "num_words": 151
+  },
+  {
+    "artist": "Boyz II Men",
+    "num_lines": 63,
+    "sentiment": {
+      "neg": 0.048,
+      "neu": 0.814,
+      "pos": 0.137,
+      "compound": 0.9938
+    },
+    "tags": [
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 2.5,
+    "year": 1992,
+    "pos": 1,
+    "num_syllables": 729.9,
+    "difficult_words": 33,
+    "fog_index": 6.0,
+    "title": "End Of The Road",
+    "num_dupes": 22,
+    "flesch_index": 95.17,
+    "num_words": 634
+  },
+  {
+    "artist": "Diana Ross",
+    "num_lines": 36,
+    "sentiment": {
+      "neg": 0.059,
+      "neu": 0.65,
+      "pos": 0.291,
+      "compound": 0.9962
+    },
+    "tags": [
+      "disco",
+      "jazz",
+      "pop",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": -0.7,
+    "year": "1981",
+    "pos": 2,
+    "num_syllables": 234.0,
+    "difficult_words": 8,
+    "fog_index": 4.0,
+    "title": "Endless Love",
+    "num_dupes": 14,
+    "flesch_index": 108.7,
+    "num_words": 205
+  },
+  {
+    "artist": "Luther Vandross",
+    "num_lines": 37,
+    "sentiment": {
+      "neg": 0.077,
+      "neu": 0.658,
+      "pos": 0.265,
+      "compound": 0.9948
+    },
+    "tags": [
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1994,
+    "pos": 56,
+    "num_syllables": 258.3,
+    "difficult_words": 13,
+    "fog_index": 4.4,
+    "title": "Endless Love",
+    "num_dupes": 12,
+    "flesch_index": 107.69,
+    "num_words": 229
+  },
+  {
+    "artist": "Richard Marx",
+    "num_lines": 25,
+    "sentiment": {
+      "neg": 0.012,
+      "neu": 0.897,
+      "pos": 0.091,
+      "compound": 0.943
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1988,
+    "pos": 31,
+    "num_syllables": 259.2,
+    "difficult_words": 24,
+    "fog_index": 5.2,
+    "title": "Endless Summer Nights",
+    "num_dupes": 7,
+    "flesch_index": 97.2,
+    "num_words": 208
+  },
+  {
+    "artist": "Depeche Mode",
+    "num_lines": 29,
+    "sentiment": {
+      "neg": 0.191,
+      "neu": 0.755,
+      "pos": 0.054,
+      "compound": -0.9776
+    },
+    "tags": [
+      "electronic/dance"
+    ],
+    "f_k_grade": 2.9,
+    "year": 1990,
+    "pos": "66",
+    "num_syllables": 231.3,
+    "difficult_words": 18,
+    "fog_index": 4.0,
+    "title": "Enjoy The Silence",
+    "num_dupes": 22,
+    "flesch_index": 83.32,
+    "num_words": 163
+  },
+  {
+    "artist": "Faith No More",
+    "num_lines": 47,
+    "sentiment": {
+      "neg": 0.08,
+      "neu": 0.783,
+      "pos": 0.137,
+      "compound": 0.9375
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": -1.1,
+    "year": 1990,
+    "pos": "75",
+    "num_syllables": 344.7,
+    "difficult_words": 14,
+    "fog_index": 4.800000000000001,
+    "title": "Epic",
+    "num_dupes": 54,
+    "flesch_index": 115.13,
+    "num_words": 340
+  },
+  {
+    "artist": "Mocedades",
+    "num_lines": 22,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 1.0,
+      "pos": 0.0,
+      "compound": 0.0
+    },
+    "tags": [
+      "folk",
+      "pop"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1974,
+    "pos": 62,
+    "num_syllables": 179.1,
+    "difficult_words": 25,
+    "fog_index": 4.4,
+    "title": "Eres Tu",
+    "num_dupes": 10,
+    "flesch_index": 90.77,
+    "num_words": 141
+  },
+  {
+    "artist": "Janet Jackson",
+    "num_lines": 51,
+    "sentiment": {
+      "neg": 0.088,
+      "neu": 0.763,
+      "pos": 0.149,
+      "compound": 0.9814
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 2.9,
+    "year": 1990,
+    "pos": "15",
+    "num_syllables": 562.5,
+    "difficult_words": 29,
+    "fog_index": 5.2,
+    "title": "Escapade",
+    "num_dupes": 24,
+    "flesch_index": 88.74,
+    "num_words": 418
+  },
+  {
+    "artist": "Enrique Iglesias",
+    "num_lines": 71,
+    "sentiment": {
+      "neg": 0.3,
+      "neu": 0.658,
+      "pos": 0.041,
+      "compound": -0.9989
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": -0.7,
+    "year": 2002,
+    "pos": "57",
+    "num_syllables": 450.9,
+    "difficult_words": 11,
+    "fog_index": 4.0,
+    "title": "Escape",
+    "num_dupes": 48,
+    "flesch_index": 108.7,
+    "num_words": 394
+  },
+  {
+    "artist": "Bangles",
+    "num_lines": 45,
+    "sentiment": {
+      "neg": 0.097,
+      "neu": 0.734,
+      "pos": 0.169,
+      "compound": 0.962
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": "1989",
+    "pos": 32,
+    "num_syllables": 312.3,
+    "difficult_words": 12,
+    "fog_index": 4.0,
+    "title": "Eternal Flame",
+    "num_dupes": 24,
+    "flesch_index": 91.78,
+    "num_words": 249
+  },
+  {
+    "artist": "Eli Young Band",
+    "num_lines": 27,
+    "sentiment": {
+      "neg": 0.019,
+      "neu": 0.946,
+      "pos": 0.034,
+      "compound": 0.6187
+    },
+    "tags": [
+      "country"
+    ],
+    "f_k_grade": 1.7,
+    "year": 2012,
+    "pos": "99",
+    "num_syllables": 249.3,
+    "difficult_words": 20,
+    "fog_index": 5.2,
+    "title": "Even If It Breaks Your Heart",
+    "num_dupes": 15,
+    "flesch_index": 97.2,
+    "num_words": 216
+  },
+  {
+    "artist": "Air Supply",
+    "num_lines": 46,
+    "sentiment": {
+      "neg": 0.082,
+      "neu": 0.737,
+      "pos": 0.181,
+      "compound": 0.9881
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1982,
+    "pos": 37,
+    "num_syllables": 380.7,
+    "difficult_words": 19,
+    "fog_index": 4.4,
+    "title": "Even The Nights Are Better",
+    "num_dupes": 32,
+    "flesch_index": 90.77,
+    "num_words": 290
+  },
+  {
+    "artist": "Hot Chocolate",
+    "num_lines": 22,
+    "sentiment": {
+      "neg": 0.087,
+      "neu": 0.612,
+      "pos": 0.3,
+      "compound": 0.9947
+    },
+    "tags": [
+      "disco",
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 2.9,
+    "year": "1979",
+    "pos": 55,
+    "num_syllables": 245.7,
+    "difficult_words": 14,
+    "fog_index": 5.2,
+    "title": "Every 1's A Winner",
+    "num_dupes": 15,
+    "flesch_index": 88.74,
+    "num_words": 189
+  },
+  {
+    "artist": "Police",
+    "num_lines": 56,
+    "sentiment": {
+      "neg": 0.088,
+      "neu": 0.827,
+      "pos": 0.086,
+      "compound": -0.1852
+    },
+    "tags": [
+      "alternative/indie",
+      "rock"
+    ],
+    "f_k_grade": 2.9,
+    "year": "1983",
+    "pos": 1,
+    "num_syllables": 467.1,
+    "difficult_words": 8,
+    "fog_index": 4.0,
+    "title": "Every Breath You Take",
+    "num_dupes": 35,
+    "flesch_index": 83.32,
+    "num_words": 334
+  },
+  {
+    "artist": "Jade",
+    "num_lines": 89,
+    "sentiment": {
+      "neg": 0.008,
+      "neu": 0.869,
+      "pos": 0.123,
+      "compound": 0.9966
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": "1995",
+    "pos": 74,
+    "num_syllables": 765.9,
+    "difficult_words": 34,
+    "fog_index": 4.4,
+    "title": "Every Day Of The Week",
+    "num_dupes": 49,
+    "flesch_index": 90.77,
+    "num_words": 570
+  },
+  {
+    "artist": "Amy Grant",
+    "num_lines": 44,
+    "sentiment": {
+      "neg": 0.04,
+      "neu": 0.734,
+      "pos": 0.226,
+      "compound": 0.9958
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "1991",
+    "pos": 28,
+    "num_syllables": 320.4,
+    "difficult_words": 21,
+    "fog_index": 4.0,
+    "title": "Every Heartbeat",
+    "num_dupes": 27,
+    "flesch_index": 91.78,
+    "num_words": 252
+  },
+  {
+    "artist": "Robert Palmer",
+    "num_lines": 33,
+    "sentiment": {
+      "neg": 0.097,
+      "neu": 0.839,
+      "pos": 0.064,
+      "compound": -0.6788
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1978,
+    "pos": 73,
+    "num_syllables": 247.5,
+    "difficult_words": 18,
+    "fog_index": 4.0,
+    "title": "Every Kinda People",
+    "num_dupes": 18,
+    "flesch_index": 91.78,
+    "num_words": 185
+  },
+  {
+    "artist": "Bobby Brown",
+    "num_lines": 44,
+    "sentiment": {
+      "neg": 0.064,
+      "neu": 0.746,
+      "pos": 0.19,
+      "compound": 0.989
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 2.1,
+    "year": "1989",
+    "pos": "48",
+    "num_syllables": 359.1,
+    "difficult_words": 19,
+    "fog_index": 4.4,
+    "title": "Every Little Step",
+    "num_dupes": 26,
+    "flesch_index": 90.77,
+    "num_words": 271
+  },
+  {
+    "artist": "Soul For Real",
+    "num_lines": 15,
+    "sentiment": {
+      "neg": 0.076,
+      "neu": 0.887,
+      "pos": 0.037,
+      "compound": -0.6258
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "1995",
+    "pos": "45",
+    "num_syllables": 152.1,
+    "difficult_words": 15,
+    "fog_index": 5.2,
+    "title": "Every Little Thing I Do",
+    "num_dupes": 12,
+    "flesch_index": 97.2,
+    "num_words": 129
+  },
+  {
+    "artist": "Police",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.053,
+      "neu": 0.891,
+      "pos": 0.056,
+      "compound": 0.6046
+    },
+    "tags": [
+      "alternative/indie",
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": 1982,
+    "pos": 79,
+    "num_syllables": 490.5,
+    "difficult_words": 22,
+    "fog_index": 4.800000000000001,
+    "title": "Every Little Thing She Does Is Magic",
+    "num_dupes": 39,
+    "flesch_index": 89.75,
+    "num_words": 367
+  },
+  {
+    "artist": "Sugar Ray",
+    "num_lines": 47,
+    "sentiment": {
+      "neg": 0.043,
+      "neu": 0.941,
+      "pos": 0.016,
+      "compound": -0.8138
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": "1999",
+    "pos": 8,
+    "num_syllables": 424.8,
+    "difficult_words": 29,
+    "fog_index": 4.4,
+    "title": "Every Morning",
+    "num_dupes": 32,
+    "flesch_index": 90.77,
+    "num_words": 327
+  },
+  {
+    "artist": "Poison",
+    "num_lines": 36,
+    "sentiment": {
+      "neg": 0.122,
+      "neu": 0.692,
+      "pos": 0.186,
+      "compound": 0.9695
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1989",
+    "pos": "3",
+    "num_syllables": 334.8,
+    "difficult_words": 12,
+    "fog_index": 4.800000000000001,
+    "title": "Every Rose Has Its Thorn",
+    "num_dupes": 13,
+    "flesch_index": 98.21,
+    "num_words": 279
+  },
+  {
+    "artist": "Babyface",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.049,
+      "neu": 0.736,
+      "pos": 0.215,
+      "compound": 0.9922
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "1997",
+    "pos": 26,
+    "num_syllables": 317.7,
+    "difficult_words": 8,
+    "fog_index": 5.2,
+    "title": "Every Time I Close My Eyes",
+    "num_dupes": 16,
+    "flesch_index": 97.2,
+    "num_words": 262
+  },
+  {
+    "artist": "Babys",
+    "num_lines": 42,
+    "sentiment": {
+      "neg": 0.048,
+      "neu": 0.583,
+      "pos": 0.369,
+      "compound": 0.9993
+    },
+    "tags": [],
+    "f_k_grade": 2.5,
+    "year": "1979",
+    "pos": 89,
+    "num_syllables": 432.0,
+    "difficult_words": 11,
+    "fog_index": 4.800000000000001,
+    "title": "Every Time I Think Of You",
+    "num_dupes": 35,
+    "flesch_index": 89.75,
+    "num_words": 326
+  },
+  {
+    "artist": "Air Supply",
+    "num_lines": 26,
+    "sentiment": {
+      "neg": 0.099,
+      "neu": 0.812,
+      "pos": 0.09,
+      "compound": -0.1624
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": "1981",
+    "pos": "27",
+    "num_syllables": 225.9,
+    "difficult_words": 18,
+    "fog_index": 4.4,
+    "title": "Every Woman In The World",
+    "num_dupes": 4,
+    "flesch_index": 90.77,
+    "num_words": 170
+  },
+  {
+    "artist": "Tommy Roe",
+    "num_lines": 19,
+    "sentiment": {
+      "neg": 0.142,
+      "neu": 0.858,
+      "pos": 0.0,
+      "compound": -0.9457
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 10.4,
+    "year": "1963",
+    "pos": 38,
+    "num_syllables": 255.6,
+    "difficult_words": 8,
+    "fog_index": 4.4,
+    "title": "Everybody",
+    "num_dupes": 25,
+    "flesch_index": 31.55,
+    "num_words": 126
+  },
+  {
+    "artist": "Backstreet Boys",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.011,
+      "neu": 0.816,
+      "pos": 0.173,
+      "compound": 0.9859
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 4.1,
+    "year": 1998,
+    "pos": 22,
+    "num_syllables": 336.6,
+    "difficult_words": 28,
+    "fog_index": 4.0,
+    "title": "Everybody",
+    "num_dupes": 28,
+    "flesch_index": 74.86,
+    "num_words": 228
+  },
+  {
+    "artist": "Wang Chung",
+    "num_lines": 50,
+    "sentiment": {
+      "neg": 0.017,
+      "neu": 0.745,
+      "pos": 0.238,
+      "compound": 0.9967
+    },
+    "tags": [
+      "electronic/dance",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 6.4,
+    "year": "1987",
+    "pos": "12",
+    "num_syllables": 448.2,
+    "difficult_words": 19,
+    "fog_index": 4.0,
+    "title": "Everybody Have Fun Tonight",
+    "num_dupes": 35,
+    "flesch_index": 57.94,
+    "num_words": 265
+  },
+  {
+    "artist": "Brenda Lee",
+    "num_lines": 28,
+    "sentiment": {
+      "neg": 0.05,
+      "neu": 0.658,
+      "pos": 0.292,
+      "compound": 0.9906
+    },
+    "tags": [
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": -1.0,
+    "year": 1962,
+    "pos": 73,
+    "num_syllables": 152.1,
+    "difficult_words": 8,
+    "fog_index": 3.6,
+    "title": "Everybody Loves Me But You",
+    "num_dupes": 10,
+    "flesch_index": 109.72,
+    "num_words": 133
+  },
+  {
+    "artist": "Dean Martin",
+    "num_lines": 25,
+    "sentiment": {
+      "neg": 0.012,
+      "neu": 0.679,
+      "pos": 0.309,
+      "compound": 0.9944
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 5.2,
+    "year": 1964,
+    "pos": "6",
+    "num_syllables": 243.9,
+    "difficult_words": 18,
+    "fog_index": 4.0,
+    "title": "Everybody Loves Somebody",
+    "num_dupes": 11,
+    "flesch_index": 66.4,
+    "num_words": 149
+  },
+  {
+    "artist": "Aaron Neville",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.207,
+      "neu": 0.626,
+      "pos": 0.167,
+      "compound": -0.967
+    },
+    "tags": [
+      "country",
+      "jazz",
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 4.1,
+    "year": "1991",
+    "pos": "87",
+    "num_syllables": 364.5,
+    "difficult_words": 22,
+    "fog_index": 5.2,
+    "title": "Everybody Plays The Fool",
+    "num_dupes": 16,
+    "flesch_index": 80.28,
+    "num_words": 268
+  },
+  {
+    "artist": "Neon Trees",
+    "num_lines": 43,
+    "sentiment": {
+      "neg": 0.052,
+      "neu": 0.833,
+      "pos": 0.114,
+      "compound": 0.9561
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": 2012,
+    "pos": 22,
+    "num_syllables": 357.3,
+    "difficult_words": 19,
+    "fog_index": 4.4,
+    "title": "Everybody Talks",
+    "num_dupes": 30,
+    "flesch_index": 90.77,
+    "num_words": 266
+  },
+  {
+    "artist": "Tears For Fears",
+    "num_lines": 27,
+    "sentiment": {
+      "neg": 0.063,
+      "neu": 0.757,
+      "pos": 0.18,
+      "compound": 0.9757
+    },
+    "tags": [],
+    "f_k_grade": 3.3,
+    "year": "1985",
+    "pos": 7,
+    "num_syllables": 225.0,
+    "difficult_words": 22,
+    "fog_index": 4.4,
+    "title": "Everybody Wants To Rule The World",
+    "num_dupes": 10,
+    "flesch_index": 82.31,
+    "num_words": 162
+  },
+  {
+    "artist": "Connie Francis",
+    "num_lines": 24,
+    "sentiment": {
+      "neg": 0.246,
+      "neu": 0.643,
+      "pos": 0.111,
+      "compound": -0.9673
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 4.5,
+    "year": 1960,
+    "pos": 11,
+    "num_syllables": 249.3,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "Everybody's Somebody's Fool",
+    "num_dupes": 12,
+    "flesch_index": 73.85,
+    "num_words": 167
+  },
+  {
+    "artist": "Phil Collins",
+    "num_lines": 43,
+    "sentiment": {
+      "neg": 0.16,
+      "neu": 0.763,
+      "pos": 0.077,
+      "compound": -0.9724
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1994,
+    "pos": 86,
+    "num_syllables": 374.4,
+    "difficult_words": 16,
+    "fog_index": 4.4,
+    "title": "Everyday",
+    "num_dupes": 14,
+    "flesch_index": 90.77,
+    "num_words": 287
+  },
+  {
+    "artist": "Sheryl Crow",
+    "num_lines": 36,
+    "sentiment": {
+      "neg": 0.034,
+      "neu": 0.858,
+      "pos": 0.108,
+      "compound": 0.9435
+    },
+    "tags": [
+      "country",
+      "folk",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1997",
+    "pos": "60",
+    "num_syllables": 343.8,
+    "difficult_words": 17,
+    "fog_index": 4.800000000000001,
+    "title": "Everyday Is A Winding Road",
+    "num_dupes": 24,
+    "flesch_index": 89.75,
+    "num_words": 256
+  },
+  {
+    "artist": "Sly and The Family Stone",
+    "num_lines": 37,
+    "sentiment": {
+      "neg": 0.105,
+      "neu": 0.8,
+      "pos": 0.095,
+      "compound": -0.0644
+    },
+    "tags": [
+      "soul"
+    ],
+    "f_k_grade": 1.7,
+    "year": "1969",
+    "pos": 5,
+    "num_syllables": 270.9,
+    "difficult_words": 15,
+    "fog_index": 4.0,
+    "title": "Everyday People",
+    "num_dupes": 17,
+    "flesch_index": 91.78,
+    "num_words": 214
+  },
+  {
+    "artist": "Jody Watley",
+    "num_lines": 31,
+    "sentiment": {
+      "neg": 0.116,
+      "neu": 0.781,
+      "pos": 0.103,
+      "compound": 0.1227
+    },
+    "tags": [
+      "electronic/dance",
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 0.5,
+    "year": 1990,
+    "pos": 41,
+    "num_syllables": 225.9,
+    "difficult_words": 13,
+    "fog_index": 4.0,
+    "title": "Everything",
+    "num_dupes": 14,
+    "flesch_index": 100.24,
+    "num_words": 181
+  },
+  {
+    "artist": "Bread",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.031,
+      "neu": 0.868,
+      "pos": 0.101,
+      "compound": 0.9231
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": 1972,
+    "pos": 52,
+    "num_syllables": 239.4,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "Everything I Own",
+    "num_dupes": 11,
+    "flesch_index": 99.23,
+    "num_words": 200
+  },
+  {
+    "artist": "Ray Stevens",
+    "num_lines": 49,
+    "sentiment": {
+      "neg": 0.027,
+      "neu": 0.724,
+      "pos": 0.249,
+      "compound": 0.9969
+    },
+    "tags": [
+      "country",
+      "pop"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1970,
+    "pos": "12",
+    "num_syllables": 360.0,
+    "difficult_words": 21,
+    "fog_index": 4.0,
+    "title": "Everything Is Beautiful",
+    "num_dupes": 27,
+    "flesch_index": 91.78,
+    "num_words": 274
+  },
+  {
+    "artist": "Daryl Hall and John Oates",
+    "num_lines": 51,
+    "sentiment": {
+      "neg": 0.111,
+      "neu": 0.725,
+      "pos": 0.164,
+      "compound": 0.9556
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": 1988,
+    "pos": "72",
+    "num_syllables": 442.8,
+    "difficult_words": 20,
+    "fog_index": 4.4,
+    "title": "Everything Your Heart Desires",
+    "num_dupes": 18,
+    "flesch_index": 99.23,
+    "num_words": 355
+  },
+  {
+    "artist": "Britney Spears",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.071,
+      "neu": 0.769,
+      "pos": 0.16,
+      "compound": 0.9538
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 0.9,
+    "year": 2004,
+    "pos": 83,
+    "num_syllables": 241.2,
+    "difficult_words": 8,
+    "fog_index": 4.4,
+    "title": "Everytime",
+    "num_dupes": 15,
+    "flesch_index": 99.23,
+    "num_words": 198
+  },
+  {
+    "artist": "Paul Young",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.022,
+      "neu": 0.938,
+      "pos": 0.04,
+      "compound": 0.5362
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1985",
+    "pos": 11,
+    "num_syllables": 314.1,
+    "difficult_words": 15,
+    "fog_index": 4.800000000000001,
+    "title": "Everytime You Go Away",
+    "num_dupes": 20,
+    "flesch_index": 89.75,
+    "num_words": 248
+  },
+  {
+    "artist": "Electric Light Orchestra",
+    "num_lines": 38,
+    "sentiment": {
+      "neg": 0.389,
+      "neu": 0.493,
+      "pos": 0.118,
+      "compound": -0.9991
+    },
+    "tags": [
+      "electronic/dance",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": 1976,
+    "pos": "69",
+    "num_syllables": 376.2,
+    "difficult_words": 19,
+    "fog_index": 4.800000000000001,
+    "title": "Evil Woman",
+    "num_dupes": 11,
+    "flesch_index": 89.75,
+    "num_words": 284
+  },
+  {
+    "artist": "Lauryn Hill",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.176,
+      "neu": 0.711,
+      "pos": 0.113,
+      "compound": -0.9169
+    },
+    "tags": [],
+    "f_k_grade": -0.3,
+    "year": "1999",
+    "pos": 62,
+    "num_syllables": 279.0,
+    "difficult_words": 15,
+    "fog_index": 4.4,
+    "title": "Ex-Factor",
+    "num_dupes": 14,
+    "flesch_index": 107.69,
+    "num_words": 245
+  },
+  {
+    "artist": "Jay-Z",
+    "num_lines": 105,
+    "sentiment": {
+      "neg": 0.034,
+      "neu": 0.903,
+      "pos": 0.063,
+      "compound": 0.9373
+    },
+    "tags": [
+      "hip-hop/rnb",
+      "religious"
+    ],
+    "f_k_grade": 1.3,
+    "year": "2003",
+    "pos": "54",
+    "num_syllables": 979.2,
+    "difficult_words": 92,
+    "fog_index": 4.800000000000001,
+    "title": "Excuse Me Miss",
+    "num_dupes": 65,
+    "flesch_index": 98.21,
+    "num_words": 805
+  },
+  {
+    "artist": "Whitney Houston",
+    "num_lines": 29,
+    "sentiment": {
+      "neg": 0.067,
+      "neu": 0.757,
+      "pos": 0.177,
+      "compound": 0.9723
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 3.7,
+    "year": 1996,
+    "pos": 14,
+    "num_syllables": 282.6,
+    "difficult_words": 16,
+    "fog_index": 4.800000000000001,
+    "title": "Exhale",
+    "num_dupes": 16,
+    "flesch_index": 81.29,
+    "num_words": 203
+  },
+  {
+    "artist": "Madonna",
+    "num_lines": 75,
+    "sentiment": {
+      "neg": 0.012,
+      "neu": 0.778,
+      "pos": 0.21,
+      "compound": 0.9988
+    },
+    "tags": [
+      "electronic/dance",
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1989",
+    "pos": 55,
+    "num_syllables": 595.8,
+    "difficult_words": 22,
+    "fog_index": 4.4,
+    "title": "Express Yourself",
+    "num_dupes": 54,
+    "flesch_index": 99.23,
+    "num_words": 513
+  },
+  {
+    "artist": "Alan Parsons Project",
+    "num_lines": 54,
+    "sentiment": {
+      "neg": 0.132,
+      "neu": 0.819,
+      "pos": 0.048,
+      "compound": -0.9819
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.5,
+    "year": 1982,
+    "pos": 32,
+    "num_syllables": 369.0,
+    "difficult_words": 24,
+    "fog_index": 4.0,
+    "title": "Eye In The Sky",
+    "num_dupes": 30,
+    "flesch_index": 100.24,
+    "num_words": 317
+  },
+  {
+    "artist": "Survivor",
+    "num_lines": 38,
+    "sentiment": {
+      "neg": 0.056,
+      "neu": 0.797,
+      "pos": 0.147,
+      "compound": 0.965
+    },
+    "tags": [],
+    "f_k_grade": -0.3,
+    "year": 1982,
+    "pos": 2,
+    "num_syllables": 291.6,
+    "difficult_words": 17,
+    "fog_index": 4.4,
+    "title": "Eye Of The Tiger",
+    "num_dupes": 21,
+    "flesch_index": 107.69,
+    "num_words": 264
+  },
+  {
+    "artist": "Billy Idol",
+    "num_lines": 53,
+    "sentiment": {
+      "neg": 0.108,
+      "neu": 0.745,
+      "pos": 0.147,
+      "compound": 0.8593
+    },
+    "tags": [
+      "electronic/dance",
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1984,
+    "pos": 37,
+    "num_syllables": 370.8,
+    "difficult_words": 23,
+    "fog_index": 4.0,
+    "title": "Eyes Without A Face",
+    "num_dupes": 22,
+    "flesch_index": 91.78,
+    "num_words": 296
+  },
+  {
+    "artist": "Cee Lo Green",
+    "num_lines": 88,
+    "sentiment": {
+      "neg": 0.204,
+      "neu": 0.573,
+      "pos": 0.222,
+      "compound": 0.811
+    },
+    "tags": [
+      "hip-hop/rnb",
+      "pop",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": -0.7,
+    "year": "2011",
+    "pos": 7,
+    "num_syllables": 541.8,
+    "difficult_words": 19,
+    "fog_index": 4.0,
+    "title": "F**K You",
+    "num_dupes": 77,
+    "flesch_index": 108.7,
+    "num_words": 512
+  },
+  {
+    "artist": "Roxette",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.097,
+      "neu": 0.822,
+      "pos": 0.081,
+      "compound": 0.4404
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": "1991",
+    "pos": 44,
+    "num_syllables": 405.9,
+    "difficult_words": 16,
+    "fog_index": 5.2,
+    "title": "Fading Like A Flower",
+    "num_dupes": 21,
+    "flesch_index": 97.2,
+    "num_words": 335
+  },
+  {
+    "artist": "George Michael",
+    "num_lines": 45,
+    "sentiment": {
+      "neg": 0.029,
+      "neu": 0.597,
+      "pos": 0.374,
+      "compound": 0.9992
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1988,
+    "pos": 1,
+    "num_syllables": 389.7,
+    "difficult_words": 23,
+    "fog_index": 4.4,
+    "title": "Faith",
+    "num_dupes": 17,
+    "flesch_index": 90.77,
+    "num_words": 303
+  },
+  {
+    "artist": "Go West",
+    "num_lines": 63,
+    "sentiment": {
+      "neg": 0.03,
+      "neu": 0.651,
+      "pos": 0.32,
+      "compound": 0.9989
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": -0.7,
+    "year": "1993",
+    "pos": 89,
+    "num_syllables": 414.0,
+    "difficult_words": 25,
+    "fog_index": 4.0,
+    "title": "Faithful",
+    "num_dupes": 35,
+    "flesch_index": 108.7,
+    "num_words": 362
+  },
+  {
+    "artist": "Journey",
+    "num_lines": 31,
+    "sentiment": {
+      "neg": 0.052,
+      "neu": 0.749,
+      "pos": 0.199,
+      "compound": 0.9776
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1983",
+    "pos": "81",
+    "num_syllables": 188.1,
+    "difficult_words": 24,
+    "fog_index": 3.6,
+    "title": "Faithfully",
+    "num_dupes": 6,
+    "flesch_index": 92.8,
+    "num_words": 146
+  },
+  {
+    "artist": "Earth, Wind and Fire",
+    "num_lines": 67,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.758,
+      "pos": 0.242,
+      "compound": 0.9984
+    },
+    "tags": [
+      "disco",
+      "jazz",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": -0.7,
+    "year": "1983",
+    "pos": 100,
+    "num_syllables": 386.1,
+    "difficult_words": 23,
+    "fog_index": 4.0,
+    "title": "Fall In Love With Me",
+    "num_dupes": 36,
+    "flesch_index": 108.7,
+    "num_words": 348
+  },
+  {
+    "artist": "Alicia Keys",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.179,
+      "neu": 0.646,
+      "pos": 0.175,
+      "compound": 0.5081
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": 0.1,
+    "year": "2001",
+    "pos": 2,
+    "num_syllables": 234.0,
+    "difficult_words": 14,
+    "fog_index": 3.6,
+    "title": "Fallin'",
+    "num_dupes": 24,
+    "flesch_index": 101.26,
+    "num_words": 192
+  },
+  {
+    "artist": "Colbie Caillat",
+    "num_lines": 71,
+    "sentiment": {
+      "neg": 0.078,
+      "neu": 0.85,
+      "pos": 0.073,
+      "compound": -0.8302
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": -1.0,
+    "year": "2009",
+    "pos": 68,
+    "num_syllables": 387.9,
+    "difficult_words": 20,
+    "fog_index": 3.6,
+    "title": "Fallin' For You",
+    "num_dupes": 48,
+    "flesch_index": 109.72,
+    "num_words": 353
+  },
+  {
+    "artist": "David Bowie",
+    "num_lines": 24,
+    "sentiment": {
+      "neg": 0.076,
+      "neu": 0.423,
+      "pos": 0.501,
+      "compound": 0.9988
+    },
+    "tags": [
+      "pop",
+      "rock",
+      "soul"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1975",
+    "pos": 7,
+    "num_syllables": 237.6,
+    "difficult_words": 16,
+    "fog_index": 4.800000000000001,
+    "title": "Fame",
+    "num_dupes": 15,
+    "flesch_index": 89.75,
+    "num_words": 178
+  },
+  {
+    "artist": "Irene Cara",
+    "num_lines": 33,
+    "sentiment": {
+      "neg": 0.066,
+      "neu": 0.815,
+      "pos": 0.119,
+      "compound": 0.9104
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": 1980,
+    "pos": "66",
+    "num_syllables": 288.0,
+    "difficult_words": 15,
+    "fog_index": 4.4,
+    "title": "Fame",
+    "num_dupes": 14,
+    "flesch_index": 90.77,
+    "num_words": 216
+  },
+  {
+    "artist": "Sly and The Family Stone",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.028,
+      "neu": 0.858,
+      "pos": 0.113,
+      "compound": 0.9433
+    },
+    "tags": [
+      "soul"
+    ],
+    "f_k_grade": 2.9,
+    "year": 1972,
+    "pos": 79,
+    "num_syllables": 288.9,
+    "difficult_words": 14,
+    "fog_index": 4.0,
+    "title": "Family Affair",
+    "num_dupes": 25,
+    "flesch_index": 83.32,
+    "num_words": 204
+  },
+  {
+    "artist": "Mary J. Blige",
+    "num_lines": 78,
+    "sentiment": {
+      "neg": 0.042,
+      "neu": 0.835,
+      "pos": 0.123,
+      "compound": 0.9914
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": "2001",
+    "pos": 31,
+    "num_syllables": 661.5,
+    "difficult_words": 33,
+    "fog_index": 4.4,
+    "title": "Family Affair",
+    "num_dupes": 57,
+    "flesch_index": 90.77,
+    "num_words": 511
+  },
+  {
+    "artist": "Mary J. Blige",
+    "num_lines": 78,
+    "sentiment": {
+      "neg": 0.042,
+      "neu": 0.835,
+      "pos": 0.123,
+      "compound": 0.9914
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": 2002,
+    "pos": 17,
+    "num_syllables": 661.5,
+    "difficult_words": 33,
+    "fog_index": 4.4,
+    "title": "Family Affair",
+    "num_dupes": 57,
+    "flesch_index": 90.77,
+    "num_words": 511
+  },
+  {
+    "artist": "Daryl Hall and John Oates",
+    "num_lines": 38,
+    "sentiment": {
+      "neg": 0.156,
+      "neu": 0.776,
+      "pos": 0.068,
+      "compound": -0.9275
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "1983",
+    "pos": 67,
+    "num_syllables": 333.0,
+    "difficult_words": 23,
+    "fog_index": 4.800000000000001,
+    "title": "Family Man",
+    "num_dupes": 17,
+    "flesch_index": 98.21,
+    "num_words": 271
+  },
+  {
+    "artist": "Iggy Azalea",
+    "num_lines": 60,
+    "sentiment": {
+      "neg": 0.043,
+      "neu": 0.801,
+      "pos": 0.156,
+      "compound": 0.9946
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": 2014,
+    "pos": 4,
+    "num_syllables": 565.2,
+    "difficult_words": 52,
+    "fog_index": 5.2,
+    "title": "Fancy",
+    "num_dupes": 29,
+    "flesch_index": 97.2,
+    "num_words": 490
+  },
+  {
+    "artist": "Bee Gees",
+    "num_lines": 49,
+    "sentiment": {
+      "neg": 0.263,
+      "neu": 0.663,
+      "pos": 0.074,
+      "compound": -0.9975
+    },
+    "tags": [
+      "electronic/dance",
+      "disco",
+      "pop"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1976,
+    "pos": "78",
+    "num_syllables": 379.8,
+    "difficult_words": 9,
+    "fog_index": 4.4,
+    "title": "Fanny",
+    "num_dupes": 33,
+    "flesch_index": 99.23,
+    "num_words": 323
+  },
+  {
+    "artist": "Coolio",
+    "num_lines": 68,
+    "sentiment": {
+      "neg": 0.089,
+      "neu": 0.781,
+      "pos": 0.129,
+      "compound": 0.9552
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": 1994,
+    "pos": 20,
+    "num_syllables": 698.4,
+    "difficult_words": 47,
+    "fog_index": 5.2,
+    "title": "Fantastic Voyage",
+    "num_dupes": 13,
+    "flesch_index": 97.2,
+    "num_words": 563
+  },
+  {
+    "artist": "Mariah Carey",
+    "num_lines": 48,
+    "sentiment": {
+      "neg": 0.011,
+      "neu": 0.741,
+      "pos": 0.248,
+      "compound": 0.9956
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 0.5,
+    "year": "1995",
+    "pos": 7,
+    "num_syllables": 297.9,
+    "difficult_words": 18,
+    "fog_index": 4.0,
+    "title": "Fantasy",
+    "num_dupes": 26,
+    "flesch_index": 100.24,
+    "num_words": 247
+  },
+  {
+    "artist": "Mariah Carey",
+    "num_lines": 48,
+    "sentiment": {
+      "neg": 0.011,
+      "neu": 0.741,
+      "pos": 0.248,
+      "compound": 0.9956
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 0.5,
+    "year": 1996,
+    "pos": 49,
+    "num_syllables": 297.9,
+    "difficult_words": 18,
+    "fog_index": 4.0,
+    "title": "Fantasy",
+    "num_dupes": 26,
+    "flesch_index": 100.24,
+    "num_words": 247
+  },
+  {
+    "artist": "Nickelback",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.026,
+      "neu": 0.85,
+      "pos": 0.124,
+      "compound": 0.9849
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.5,
+    "year": 2006,
+    "pos": 53,
+    "num_syllables": 342.9,
+    "difficult_words": 16,
+    "fog_index": 4.0,
+    "title": "Far Away",
+    "num_dupes": 33,
+    "flesch_index": 100.24,
+    "num_words": 293
+  },
+  {
+    "artist": "Nickelback",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.026,
+      "neu": 0.85,
+      "pos": 0.124,
+      "compound": 0.9849
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.5,
+    "year": "2007",
+    "pos": 94,
+    "num_syllables": 342.9,
+    "difficult_words": 16,
+    "fog_index": 4.0,
+    "title": "Far Away",
+    "num_dupes": 33,
+    "flesch_index": 100.24,
+    "num_words": 293
+  },
+  {
+    "artist": "Tracy Chapman",
+    "num_lines": 66,
+    "sentiment": {
+      "neg": 0.044,
+      "neu": 0.843,
+      "pos": 0.112,
+      "compound": 0.9826
+    },
+    "tags": [
+      "folk"
+    ],
+    "f_k_grade": 1.3,
+    "year": 1988,
+    "pos": 76,
+    "num_syllables": 620.1,
+    "difficult_words": 44,
+    "fog_index": 4.800000000000001,
+    "title": "Fast Car",
+    "num_dupes": 25,
+    "flesch_index": 98.21,
+    "num_words": 504
+  },
+  {
+    "artist": "George Michael",
+    "num_lines": 46,
+    "sentiment": {
+      "neg": 0.054,
+      "neu": 0.749,
+      "pos": 0.197,
+      "compound": 0.9931
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1996,
+    "pos": 62,
+    "num_syllables": 378.0,
+    "difficult_words": 32,
+    "fog_index": 4.4,
+    "title": "Fastlove",
+    "num_dupes": 27,
+    "flesch_index": 99.23,
+    "num_words": 311
+  },
+  {
+    "artist": "LL Cool J",
+    "num_lines": 75,
+    "sentiment": {
+      "neg": 0.153,
+      "neu": 0.715,
+      "pos": 0.132,
+      "compound": -0.9635
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": 1998,
+    "pos": 97,
+    "num_syllables": 704.7,
+    "difficult_words": 82,
+    "fog_index": 4.800000000000001,
+    "title": "Father",
+    "num_dupes": 10,
+    "flesch_index": 98.21,
+    "num_words": 582
+  },
+  {
+    "artist": "George Michael",
+    "num_lines": 73,
+    "sentiment": {
+      "neg": 0.053,
+      "neu": 0.773,
+      "pos": 0.174,
+      "compound": 0.9958
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1988,
+    "pos": "27",
+    "num_syllables": 543.6,
+    "difficult_words": 43,
+    "fog_index": 4.0,
+    "title": "Father Figure",
+    "num_dupes": 28,
+    "flesch_index": 91.78,
+    "num_words": 434
+  },
+  {
+    "artist": "Gorillaz",
+    "num_lines": 65,
+    "sentiment": {
+      "neg": 0.199,
+      "neu": 0.593,
+      "pos": 0.208,
+      "compound": 0.9881
+    },
+    "tags": [
+      "electronic/dance",
+      "hip-hop/rnb",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": "2005",
+    "pos": 37,
+    "num_syllables": 571.5,
+    "difficult_words": 33,
+    "fog_index": 4.4,
+    "title": "Feel Good Inc",
+    "num_dupes": 40,
+    "flesch_index": 90.77,
+    "num_words": 430
+  },
+  {
+    "artist": "Gorillaz",
+    "num_lines": 65,
+    "sentiment": {
+      "neg": 0.199,
+      "neu": 0.593,
+      "pos": 0.208,
+      "compound": 0.9881
+    },
+    "tags": [
+      "electronic/dance",
+      "hip-hop/rnb",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": 2006,
+    "pos": 97,
+    "num_syllables": 571.5,
+    "difficult_words": 33,
+    "fog_index": 4.4,
+    "title": "Feel Good Inc",
+    "num_dupes": 40,
+    "flesch_index": 90.77,
+    "num_words": 430
+  },
+  {
+    "artist": "Roberta Flack",
+    "num_lines": 16,
+    "sentiment": {
+      "neg": 0.01,
+      "neu": 0.651,
+      "pos": 0.338,
+      "compound": 0.9962
+    },
+    "tags": [
+      "folk",
+      "jazz",
+      "pop",
+      "soul"
+    ],
+    "f_k_grade": 2.5,
+    "year": 1974,
+    "pos": 35,
+    "num_syllables": 201.6,
+    "difficult_words": 14,
+    "fog_index": 6.0,
+    "title": "Feel Like Makin' Love",
+    "num_dupes": 13,
+    "flesch_index": 95.17,
+    "num_words": 165
+  },
+  {
+    "artist": "Bad Company",
+    "num_lines": 33,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.313,
+      "pos": 0.687,
+      "compound": 0.9999
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1975",
+    "pos": 67,
+    "num_syllables": 336.6,
+    "difficult_words": 8,
+    "fog_index": 4.800000000000001,
+    "title": "Feel Like Makin' Love",
+    "num_dupes": 26,
+    "flesch_index": 89.75,
+    "num_words": 255
+  },
+  {
+    "artist": "Naughty By Nature",
+    "num_lines": 63,
+    "sentiment": {
+      "neg": 0.059,
+      "neu": 0.852,
+      "pos": 0.089,
+      "compound": 0.8762
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "1995",
+    "pos": 73,
+    "num_syllables": 559.8,
+    "difficult_words": 93,
+    "fog_index": 4.800000000000001,
+    "title": "Feel Me Flow",
+    "num_dupes": 5,
+    "flesch_index": 98.21,
+    "num_words": 464
+  },
+  {
+    "artist": "Calvin Harris",
+    "num_lines": 20,
+    "sentiment": {
+      "neg": 0.14,
+      "neu": 0.724,
+      "pos": 0.136,
+      "compound": 0.6597
+    },
+    "tags": [
+      "electronic/dance",
+      "disco",
+      "electronic/dance"
+    ],
+    "f_k_grade": -0.3,
+    "year": 2012,
+    "pos": "42",
+    "num_syllables": 144.0,
+    "difficult_words": 3,
+    "fog_index": 4.4,
+    "title": "Feel So Close",
+    "num_dupes": 17,
+    "flesch_index": 107.69,
+    "num_words": 127
+  },
+  {
+    "artist": "Pitbull",
+    "num_lines": 50,
+    "sentiment": {
+      "neg": 0.03,
+      "neu": 0.873,
+      "pos": 0.097,
+      "compound": 0.9838
+    },
+    "tags": [],
+    "f_k_grade": 2.5,
+    "year": "2013",
+    "pos": "36",
+    "num_syllables": 504.9,
+    "difficult_words": 48,
+    "fog_index": 4.800000000000001,
+    "title": "Feel This Moment",
+    "num_dupes": 33,
+    "flesch_index": 89.75,
+    "num_words": 396
+  },
+  {
+    "artist": "Chicago",
+    "num_lines": 45,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.67,
+      "pos": 0.33,
+      "compound": 0.9983
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.5,
+    "year": "1973",
+    "pos": "54",
+    "num_syllables": 326.7,
+    "difficult_words": 16,
+    "fog_index": 4.0,
+    "title": "Feelin' Stronger Every Day",
+    "num_dupes": 36,
+    "flesch_index": 100.24,
+    "num_words": 268
+  },
+  {
+    "artist": "Foreigner",
+    "num_lines": 37,
+    "sentiment": {
+      "neg": 0.029,
+      "neu": 0.775,
+      "pos": 0.196,
+      "compound": 0.9905
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1977",
+    "pos": 31,
+    "num_syllables": 303.3,
+    "difficult_words": 14,
+    "fog_index": 4.4,
+    "title": "Feels Like The First Time",
+    "num_dupes": 19,
+    "flesch_index": 99.23,
+    "num_words": 252
+  },
+  {
+    "artist": "Daughtry",
+    "num_lines": 34,
+    "sentiment": {
+      "neg": 0.019,
+      "neu": 0.837,
+      "pos": 0.144,
+      "compound": 0.9743
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": 2008,
+    "pos": 95,
+    "num_syllables": 284.4,
+    "difficult_words": 21,
+    "fog_index": 4.4,
+    "title": "Feels Like Tonight",
+    "num_dupes": 16,
+    "flesch_index": 90.77,
+    "num_words": 225
+  },
+  {
+    "artist": "Alabama",
+    "num_lines": 17,
+    "sentiment": {
+      "neg": 0.038,
+      "neu": 0.712,
+      "pos": 0.251,
+      "compound": 0.9864
+    },
+    "tags": [
+      "country",
+      "rock"
+    ],
+    "f_k_grade": 0.1,
+    "year": "1981",
+    "pos": 77,
+    "num_syllables": 143.1,
+    "difficult_words": 14,
+    "fog_index": 4.800000000000001,
+    "title": "Feels So Right",
+    "num_dupes": 5,
+    "flesch_index": 106.67,
+    "num_words": 127
+  },
+  {
+    "artist": "Fergie",
+    "num_lines": 103,
+    "sentiment": {
+      "neg": 0.048,
+      "neu": 0.844,
+      "pos": 0.107,
+      "compound": 0.9921
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 0.1,
+    "year": "2007",
+    "pos": 19,
+    "num_syllables": 826.2,
+    "difficult_words": 55,
+    "fog_index": 4.800000000000001,
+    "title": "Fergalicious",
+    "num_dupes": 80,
+    "flesch_index": 106.67,
+    "num_words": 742
+  },
+  {
+    "artist": "Gerry and The Pacemakers",
+    "num_lines": 21,
+    "sentiment": {
+      "neg": 0.017,
+      "neu": 0.803,
+      "pos": 0.18,
+      "compound": 0.9661
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "1965",
+    "pos": 43,
+    "num_syllables": 137.7,
+    "difficult_words": 7,
+    "fog_index": 4.0,
+    "title": "Ferry Cross The Mersey",
+    "num_dupes": 10,
+    "flesch_index": 91.78,
+    "num_words": 107
+  },
+  {
+    "artist": "Peggy Lee",
+    "num_lines": 51,
+    "sentiment": {
+      "neg": 0.033,
+      "neu": 0.818,
+      "pos": 0.149,
+      "compound": 0.9879
+    },
+    "tags": [
+      "jazz",
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": 1958,
+    "pos": 76,
+    "num_syllables": 334.8,
+    "difficult_words": 35,
+    "fog_index": 4.0,
+    "title": "Fever",
+    "num_dupes": 17,
+    "flesch_index": 100.24,
+    "num_words": 275
+  },
+  {
+    "artist": "R. Kelly",
+    "num_lines": 72,
+    "sentiment": {
+      "neg": 0.062,
+      "neu": 0.733,
+      "pos": 0.205,
+      "compound": 0.9983
+    },
+    "tags": [
+      "hip-hop/rnb",
+      "pop",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": 0.1,
+    "year": "2001",
+    "pos": "45",
+    "num_syllables": 587.7,
+    "difficult_words": 51,
+    "fog_index": 4.800000000000001,
+    "title": "Fiesta",
+    "num_dupes": 47,
+    "flesch_index": 106.67,
+    "num_words": 518
+  },
+  {
+    "artist": "Rachel Platten",
+    "num_lines": 56,
+    "sentiment": {
+      "neg": 0.143,
+      "neu": 0.766,
+      "pos": 0.091,
+      "compound": -0.9426
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": "2015",
+    "pos": 20,
+    "num_syllables": 396.0,
+    "difficult_words": 21,
+    "fog_index": 4.0,
+    "title": "Fight Song",
+    "num_dupes": 37,
+    "flesch_index": 100.24,
+    "num_words": 332
+  },
+  {
+    "artist": "Christina Aguilera",
+    "num_lines": 84,
+    "sentiment": {
+      "neg": 0.119,
+      "neu": 0.704,
+      "pos": 0.177,
+      "compound": 0.9796
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "2003",
+    "pos": 79,
+    "num_syllables": 677.7,
+    "difficult_words": 57,
+    "fog_index": 4.4,
+    "title": "Fighter",
+    "num_dupes": 44,
+    "flesch_index": 99.23,
+    "num_words": 551
+  },
+  {
+    "artist": "Craig David",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.014,
+      "neu": 0.932,
+      "pos": 0.054,
+      "compound": 0.9325
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "2001",
+    "pos": 37,
+    "num_syllables": 538.2,
+    "difficult_words": 40,
+    "fog_index": 5.2,
+    "title": "Fill Me In",
+    "num_dupes": 15,
+    "flesch_index": 97.2,
+    "num_words": 455
+  },
+  {
+    "artist": "CeCe Peniston",
+    "num_lines": 51,
+    "sentiment": {
+      "neg": 0.025,
+      "neu": 0.842,
+      "pos": 0.133,
+      "compound": 0.9855
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 0.9,
+    "year": 1992,
+    "pos": 20,
+    "num_syllables": 421.2,
+    "difficult_words": 18,
+    "fog_index": 4.4,
+    "title": "Finally",
+    "num_dupes": 46,
+    "flesch_index": 99.23,
+    "num_words": 337
+  },
+  {
+    "artist": "Ohio Players",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.081,
+      "neu": 0.75,
+      "pos": 0.169,
+      "compound": 0.9793
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "1975",
+    "pos": "30",
+    "num_syllables": 333.0,
+    "difficult_words": 17,
+    "fog_index": 4.800000000000001,
+    "title": "Fire",
+    "num_dupes": 13,
+    "flesch_index": 98.21,
+    "num_words": 281
+  },
+  {
+    "artist": "Pointer Sisters",
+    "num_lines": 33,
+    "sentiment": {
+      "neg": 0.263,
+      "neu": 0.618,
+      "pos": 0.119,
+      "compound": -0.973
+    },
+    "tags": [],
+    "f_k_grade": 0.5,
+    "year": "1979",
+    "pos": "15",
+    "num_syllables": 195.3,
+    "difficult_words": 20,
+    "fog_index": 4.0,
+    "title": "Fire",
+    "num_dupes": 12,
+    "flesch_index": 100.24,
+    "num_words": 168
+  },
+  {
+    "artist": "James Taylor",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.085,
+      "neu": 0.831,
+      "pos": 0.085,
+      "compound": 0.2537
+    },
+    "tags": [
+      "country",
+      "folk",
+      "hip-hop/rnb",
+      "rock"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1970,
+    "pos": 67,
+    "num_syllables": 335.7,
+    "difficult_words": 19,
+    "fog_index": 5.6000000000000005,
+    "title": "Fire And Rain",
+    "num_dupes": 8,
+    "flesch_index": 96.18,
+    "num_words": 282
+  },
+  {
+    "artist": "Sean Kingston",
+    "num_lines": 68,
+    "sentiment": {
+      "neg": 0.15,
+      "neu": 0.748,
+      "pos": 0.102,
+      "compound": -0.9697
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 2.5,
+    "year": "2009",
+    "pos": "33",
+    "num_syllables": 650.7,
+    "difficult_words": 31,
+    "fog_index": 4.800000000000001,
+    "title": "Fire Burning",
+    "num_dupes": 40,
+    "flesch_index": 89.75,
+    "num_words": 500
+  },
+  {
+    "artist": "Bob Seger",
+    "num_lines": 37,
+    "sentiment": {
+      "neg": 0.144,
+      "neu": 0.804,
+      "pos": 0.053,
+      "compound": -0.9639
+    },
+    "tags": [],
+    "f_k_grade": -0.3,
+    "year": 1980,
+    "pos": 67,
+    "num_syllables": 274.5,
+    "difficult_words": 13,
+    "fog_index": 4.4,
+    "title": "Fire Lake",
+    "num_dupes": 10,
+    "flesch_index": 107.69,
+    "num_words": 245
+  },
+  {
+    "artist": "Owl City",
+    "num_lines": 49,
+    "sentiment": {
+      "neg": 0.074,
+      "neu": 0.829,
+      "pos": 0.097,
+      "compound": 0.936
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": "2009",
+    "pos": "60",
+    "num_syllables": 437.4,
+    "difficult_words": 20,
+    "fog_index": 4.4,
+    "title": "Fireflies",
+    "num_dupes": 29,
+    "flesch_index": 90.77,
+    "num_words": 336
+  },
+  {
+    "artist": "Owl City",
+    "num_lines": 49,
+    "sentiment": {
+      "neg": 0.074,
+      "neu": 0.829,
+      "pos": 0.097,
+      "compound": 0.936
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": 2010,
+    "pos": "30",
+    "num_syllables": 437.4,
+    "difficult_words": 20,
+    "fog_index": 4.4,
+    "title": "Fireflies",
+    "num_dupes": 29,
+    "flesch_index": 90.77,
+    "num_words": 336
+  },
+  {
+    "artist": "Katy Perry",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.054,
+      "neu": 0.821,
+      "pos": 0.125,
+      "compound": 0.9834
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 0.9,
+    "year": "2011",
+    "pos": "3",
+    "num_syllables": 453.6,
+    "difficult_words": 27,
+    "fog_index": 4.4,
+    "title": "Firework",
+    "num_dupes": 35,
+    "flesch_index": 99.23,
+    "num_words": 363
+  },
+  {
+    "artist": "Lifehouse",
+    "num_lines": 57,
+    "sentiment": {
+      "neg": 0.11,
+      "neu": 0.659,
+      "pos": 0.231,
+      "compound": 0.9903
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 1.3,
+    "year": "2007",
+    "pos": 86,
+    "num_syllables": 327.6,
+    "difficult_words": 24,
+    "fog_index": 3.6,
+    "title": "First Time",
+    "num_dupes": 35,
+    "flesch_index": 92.8,
+    "num_words": 257
+  },
+  {
+    "artist": "Irene Cara",
+    "num_lines": 43,
+    "sentiment": {
+      "neg": 0.048,
+      "neu": 0.802,
+      "pos": 0.15,
+      "compound": 0.9559
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "1983",
+    "pos": "3",
+    "num_syllables": 302.4,
+    "difficult_words": 24,
+    "fog_index": 4.0,
+    "title": "Flashdance... What A Feeling",
+    "num_dupes": 19,
+    "flesch_index": 91.78,
+    "num_words": 237
+  },
+  {
+    "artist": "Kanye West",
+    "num_lines": 57,
+    "sentiment": {
+      "neg": 0.05,
+      "neu": 0.844,
+      "pos": 0.105,
+      "compound": 0.9764
+    },
+    "tags": [
+      "hip-hop/rnb",
+      "religious"
+    ],
+    "f_k_grade": 0.9,
+    "year": 2008,
+    "pos": "90",
+    "num_syllables": 473.4,
+    "difficult_words": 43,
+    "fog_index": 4.4,
+    "title": "Flashing Lights",
+    "num_dupes": 24,
+    "flesch_index": 99.23,
+    "num_words": 394
+  },
+  {
+    "artist": "Parliament",
+    "num_lines": 79,
+    "sentiment": {
+      "neg": 0.027,
+      "neu": 0.845,
+      "pos": 0.128,
+      "compound": 0.9963
+    },
+    "tags": [],
+    "f_k_grade": -1.1,
+    "year": 1978,
+    "pos": 92,
+    "num_syllables": 588.6,
+    "difficult_words": 8,
+    "fog_index": 4.800000000000001,
+    "title": "Flashlight",
+    "num_dupes": 49,
+    "flesch_index": 115.13,
+    "num_words": 567
+  },
+  {
+    "artist": "Craig Mack",
+    "num_lines": 81,
+    "sentiment": {
+      "neg": 0.075,
+      "neu": 0.866,
+      "pos": 0.059,
+      "compound": -0.9315
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": 1994,
+    "pos": "81",
+    "num_syllables": 842.4,
+    "difficult_words": 84,
+    "fog_index": 5.2,
+    "title": "Flava In Ya Ear",
+    "num_dupes": 9,
+    "flesch_index": 97.2,
+    "num_words": 700
+  },
+  {
+    "artist": "Rich Homie Quan",
+    "num_lines": 59,
+    "sentiment": {
+      "neg": 0.142,
+      "neu": 0.713,
+      "pos": 0.145,
+      "compound": -0.8236
+    },
+    "tags": [],
+    "f_k_grade": 0.5,
+    "year": "2015",
+    "pos": 49,
+    "num_syllables": 582.3,
+    "difficult_words": 32,
+    "fog_index": 5.2,
+    "title": "Flex",
+    "num_dupes": 21,
+    "flesch_index": 105.66,
+    "num_words": 520
+  },
+  {
+    "artist": "Lenny Kravitz",
+    "num_lines": 54,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.603,
+      "pos": 0.397,
+      "compound": 0.9973
+    },
+    "tags": [
+      "rock",
+      "soul"
+    ],
+    "f_k_grade": -1.0,
+    "year": "1999",
+    "pos": 29,
+    "num_syllables": 281.7,
+    "difficult_words": 9,
+    "fog_index": 3.6,
+    "title": "Fly Away",
+    "num_dupes": 34,
+    "flesch_index": 109.72,
+    "num_words": 251
+  },
+  {
+    "artist": "Steve Miller Band",
+    "num_lines": 57,
+    "sentiment": {
+      "neg": 0.007,
+      "neu": 0.832,
+      "pos": 0.16,
+      "compound": 0.9876
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1977",
+    "pos": 28,
+    "num_syllables": 351.9,
+    "difficult_words": 16,
+    "fog_index": 3.6,
+    "title": "Fly Like An Eagle",
+    "num_dupes": 46,
+    "flesch_index": 92.8,
+    "num_words": 277
+  },
+  {
+    "artist": "Jason Aldean",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.014,
+      "neu": 0.885,
+      "pos": 0.101,
+      "compound": 0.9554
+    },
+    "tags": [
+      "country"
+    ],
+    "f_k_grade": 2.9,
+    "year": 2012,
+    "pos": 98,
+    "num_syllables": 313.2,
+    "difficult_words": 31,
+    "fog_index": 5.2,
+    "title": "Fly Over States",
+    "num_dupes": 8,
+    "flesch_index": 88.74,
+    "num_words": 241
+  },
+  {
+    "artist": "Ruben Studdard",
+    "num_lines": 36,
+    "sentiment": {
+      "neg": 0.031,
+      "neu": 0.822,
+      "pos": 0.147,
+      "compound": 0.9834
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": "2003",
+    "pos": 88,
+    "num_syllables": 291.6,
+    "difficult_words": 23,
+    "fog_index": 4.4,
+    "title": "Flying Without Wings",
+    "num_dupes": 9,
+    "flesch_index": 99.23,
+    "num_words": 237
+  },
+  {
+    "artist": "Uncle Kracker",
+    "num_lines": 51,
+    "sentiment": {
+      "neg": 0.032,
+      "neu": 0.772,
+      "pos": 0.197,
+      "compound": 0.9943
+    },
+    "tags": [
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "2001",
+    "pos": 19,
+    "num_syllables": 416.7,
+    "difficult_words": 14,
+    "fog_index": 4.4,
+    "title": "Follow Me",
+    "num_dupes": 40,
+    "flesch_index": 99.23,
+    "num_words": 350
+  },
+  {
+    "artist": "Chris Rea",
+    "num_lines": 58,
+    "sentiment": {
+      "neg": 0.212,
+      "neu": 0.663,
+      "pos": 0.125,
+      "compound": -0.9831
+    },
+    "tags": [
+      "blues",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": -0.7,
+    "year": 1978,
+    "pos": "84",
+    "num_syllables": 338.4,
+    "difficult_words": 12,
+    "fog_index": 4.0,
+    "title": "Fool",
+    "num_dupes": 40,
+    "flesch_index": 108.7,
+    "num_words": 308
+  },
+  {
+    "artist": "Elvin Bishop",
+    "num_lines": 25,
+    "sentiment": {
+      "neg": 0.197,
+      "neu": 0.614,
+      "pos": 0.188,
+      "compound": 0.8183
+    },
+    "tags": [
+      "blues"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1976,
+    "pos": 56,
+    "num_syllables": 279.9,
+    "difficult_words": 13,
+    "fog_index": 5.6000000000000005,
+    "title": "Fooled Around And Fell In Love",
+    "num_dupes": 9,
+    "flesch_index": 96.18,
+    "num_words": 233
+  },
+  {
+    "artist": "Ashanti",
+    "num_lines": 72,
+    "sentiment": {
+      "neg": 0.067,
+      "neu": 0.824,
+      "pos": 0.109,
+      "compound": 0.958
+    },
+    "tags": [],
+    "f_k_grade": -0.3,
+    "year": 2002,
+    "pos": 2,
+    "num_syllables": 558.0,
+    "difficult_words": 21,
+    "fog_index": 4.4,
+    "title": "Foolish",
+    "num_dupes": 47,
+    "flesch_index": 107.69,
+    "num_words": 493
+  },
+  {
+    "artist": "Shirelles",
+    "num_lines": 26,
+    "sentiment": {
+      "neg": 0.089,
+      "neu": 0.799,
+      "pos": 0.112,
+      "compound": 0.7177
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1963",
+    "pos": "57",
+    "num_syllables": 242.1,
+    "difficult_words": 12,
+    "fog_index": 4.800000000000001,
+    "title": "Foolish Little Girl",
+    "num_dupes": 13,
+    "flesch_index": 98.21,
+    "num_words": 202
+  },
+  {
+    "artist": "Kenny Loggins",
+    "num_lines": 43,
+    "sentiment": {
+      "neg": 0.181,
+      "neu": 0.779,
+      "pos": 0.039,
+      "compound": -0.9855
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 3.3,
+    "year": 1984,
+    "pos": 4,
+    "num_syllables": 353.7,
+    "difficult_words": 27,
+    "fog_index": 4.4,
+    "title": "Footloose",
+    "num_dupes": 22,
+    "flesch_index": 82.31,
+    "num_words": 260
+  },
+  {
+    "artist": "Carpenters",
+    "num_lines": 19,
+    "sentiment": {
+      "neg": 0.018,
+      "neu": 0.774,
+      "pos": 0.209,
+      "compound": 0.9711
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": "1971",
+    "pos": 35,
+    "num_syllables": 117.0,
+    "difficult_words": 2,
+    "fog_index": 4.0,
+    "title": "For All We Know",
+    "num_dupes": 9,
+    "flesch_index": 100.24,
+    "num_words": 101
+  },
+  {
+    "artist": "Script",
+    "num_lines": 55,
+    "sentiment": {
+      "neg": 0.154,
+      "neu": 0.722,
+      "pos": 0.124,
+      "compound": -0.8886
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "2011",
+    "pos": "66",
+    "num_syllables": 487.8,
+    "difficult_words": 22,
+    "fog_index": 4.800000000000001,
+    "title": "For The First Time",
+    "num_dupes": 31,
+    "flesch_index": 98.21,
+    "num_words": 402
+  },
+  {
+    "artist": "O'Jays",
+    "num_lines": 50,
+    "sentiment": {
+      "neg": 0.061,
+      "neu": 0.796,
+      "pos": 0.143,
+      "compound": 0.9871
+    },
+    "tags": [
+      "soul"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1974,
+    "pos": "75",
+    "num_syllables": 433.8,
+    "difficult_words": 24,
+    "fog_index": 4.4,
+    "title": "For The Love Of Money",
+    "num_dupes": 22,
+    "flesch_index": 90.77,
+    "num_words": 344
+  },
+  {
+    "artist": "Buffalo Springfield",
+    "num_lines": 35,
+    "sentiment": {
+      "neg": 0.156,
+      "neu": 0.799,
+      "pos": 0.045,
+      "compound": -0.952
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 1.7,
+    "year": "1967",
+    "pos": "27",
+    "num_syllables": 239.4,
+    "difficult_words": 23,
+    "fog_index": 4.0,
+    "title": "For What It's Worth",
+    "num_dupes": 22,
+    "flesch_index": 91.78,
+    "num_words": 182
+  },
+  {
+    "artist": "Sheena Easton",
+    "num_lines": 24,
+    "sentiment": {
+      "neg": 0.048,
+      "neu": 0.85,
+      "pos": 0.101,
+      "compound": 0.889
+    },
+    "tags": [
+      "country",
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1981",
+    "pos": 92,
+    "num_syllables": 194.4,
+    "difficult_words": 10,
+    "fog_index": 4.800000000000001,
+    "title": "For Your Eyes Only",
+    "num_dupes": 6,
+    "flesch_index": 98.21,
+    "num_words": 169
+  },
+  {
+    "artist": "Yardbirds",
+    "num_lines": 33,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.742,
+      "pos": 0.258,
+      "compound": 0.9937
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.5,
+    "year": "1965",
+    "pos": "48",
+    "num_syllables": 195.3,
+    "difficult_words": 5,
+    "fog_index": 4.0,
+    "title": "For Your Love",
+    "num_dupes": 24,
+    "flesch_index": 100.24,
+    "num_words": 165
+  },
+  {
+    "artist": "Kiss",
+    "num_lines": 31,
+    "sentiment": {
+      "neg": 0.138,
+      "neu": 0.667,
+      "pos": 0.195,
+      "compound": 0.9768
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 2.9,
+    "year": 1990,
+    "pos": 92,
+    "num_syllables": 315.0,
+    "difficult_words": 20,
+    "fog_index": 5.2,
+    "title": "Forever",
+    "num_dupes": 23,
+    "flesch_index": 88.74,
+    "num_words": 250
+  },
+  {
+    "artist": "Shania Twain",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.004,
+      "neu": 0.849,
+      "pos": 0.147,
+      "compound": 0.9943
+    },
+    "tags": [
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 1.3,
+    "year": "2003",
+    "pos": "57",
+    "num_syllables": 457.2,
+    "difficult_words": 14,
+    "fog_index": 4.800000000000001,
+    "title": "Forever And For Always",
+    "num_dupes": 27,
+    "flesch_index": 98.21,
+    "num_words": 395
+  },
+  {
+    "artist": "Paula Abdul",
+    "num_lines": 71,
+    "sentiment": {
+      "neg": 0.006,
+      "neu": 0.862,
+      "pos": 0.132,
+      "compound": 0.9943
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 2.1,
+    "year": "1989",
+    "pos": "30",
+    "num_syllables": 564.3,
+    "difficult_words": 37,
+    "fog_index": 4.4,
+    "title": "Forever Your Girl",
+    "num_dupes": 28,
+    "flesch_index": 90.77,
+    "num_words": 433
+  },
+  {
+    "artist": "Dr. Dre",
+    "num_lines": 67,
+    "sentiment": {
+      "neg": 0.139,
+      "neu": 0.757,
+      "pos": 0.104,
+      "compound": -0.9925
+    },
+    "tags": [],
+    "f_k_grade": 3.6,
+    "year": 2000,
+    "pos": 73,
+    "num_syllables": 1111.5,
+    "difficult_words": 94,
+    "fog_index": 7.2,
+    "title": "Forget About Dre",
+    "num_dupes": 37,
+    "flesch_index": 92.12,
+    "num_words": 898
+  },
+  {
+    "artist": "Maxwell",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.017,
+      "neu": 0.698,
+      "pos": 0.285,
+      "compound": 0.9977
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": "1999",
+    "pos": "24",
+    "num_syllables": 316.8,
+    "difficult_words": 13,
+    "fog_index": 4.4,
+    "title": "Fortunate",
+    "num_dupes": 22,
+    "flesch_index": 99.23,
+    "num_words": 267
+  },
+  {
+    "artist": "Gin Blossoms",
+    "num_lines": 42,
+    "sentiment": {
+      "neg": 0.105,
+      "neu": 0.765,
+      "pos": 0.13,
+      "compound": 0.8449
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1994,
+    "pos": "51",
+    "num_syllables": 304.2,
+    "difficult_words": 16,
+    "fog_index": 4.4,
+    "title": "Found Out About You",
+    "num_dupes": 23,
+    "flesch_index": 107.69,
+    "num_words": 266
+  },
+  {
+    "artist": "Jim Reeves",
+    "num_lines": 16,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.807,
+      "pos": 0.193,
+      "compound": 0.967
+    },
+    "tags": [
+      "country"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1957",
+    "pos": "63",
+    "num_syllables": 122.4,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "Four Walls",
+    "num_dupes": 2,
+    "flesch_index": 99.23,
+    "num_words": 103
+  },
+  {
+    "artist": "Connie Francis",
+    "num_lines": 22,
+    "sentiment": {
+      "neg": 0.152,
+      "neu": 0.618,
+      "pos": 0.23,
+      "compound": 0.9567
+    },
+    "tags": [
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": "1959",
+    "pos": 61,
+    "num_syllables": 161.1,
+    "difficult_words": 7,
+    "fog_index": 4.0,
+    "title": "Frankie",
+    "num_dupes": 7,
+    "flesch_index": 100.24,
+    "num_words": 129
+  },
+  {
+    "artist": "Adina Howard",
+    "num_lines": 48,
+    "sentiment": {
+      "neg": 0.093,
+      "neu": 0.831,
+      "pos": 0.076,
+      "compound": -0.7797
+    },
+    "tags": [],
+    "f_k_grade": -0.3,
+    "year": "1995",
+    "pos": 13,
+    "num_syllables": 365.4,
+    "difficult_words": 18,
+    "fog_index": 4.4,
+    "title": "Freak Like Me",
+    "num_dupes": 21,
+    "flesch_index": 107.69,
+    "num_words": 330
+  },
+  {
+    "artist": "Curtis Mayfield",
+    "num_lines": 23,
+    "sentiment": {
+      "neg": 0.181,
+      "neu": 0.561,
+      "pos": 0.258,
+      "compound": 0.9724
+    },
+    "tags": [
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": 2.9,
+    "year": 1972,
+    "pos": 82,
+    "num_syllables": 247.5,
+    "difficult_words": 14,
+    "fog_index": 5.2,
+    "title": "Freddie's Dead",
+    "num_dupes": 16,
+    "flesch_index": 88.74,
+    "num_words": 194
+  },
+  {
+    "artist": "Tom Petty",
+    "num_lines": 46,
+    "sentiment": {
+      "neg": 0.055,
+      "neu": 0.647,
+      "pos": 0.298,
+      "compound": 0.9972
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.5,
+    "year": 1990,
+    "pos": 64,
+    "num_syllables": 297.9,
+    "difficult_words": 28,
+    "fog_index": 4.0,
+    "title": "Free Fallin'",
+    "num_dupes": 34,
+    "flesch_index": 100.24,
+    "num_words": 250
+  },
+  {
+    "artist": "Edgar Winter Group",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.017,
+      "neu": 0.549,
+      "pos": 0.434,
+      "compound": 0.9982
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1973",
+    "pos": "96",
+    "num_syllables": 234.9,
+    "difficult_words": 10,
+    "fog_index": 4.4,
+    "title": "Free Ride",
+    "num_dupes": 22,
+    "flesch_index": 99.23,
+    "num_words": 195
+  },
+  {
+    "artist": "En Vogue",
+    "num_lines": 44,
+    "sentiment": {
+      "neg": 0.076,
+      "neu": 0.783,
+      "pos": 0.141,
+      "compound": 0.9763
+    },
+    "tags": [],
+    "f_k_grade": 0.1,
+    "year": 1992,
+    "pos": "93",
+    "num_syllables": 386.1,
+    "difficult_words": 21,
+    "fog_index": 4.800000000000001,
+    "title": "Free Your Mind",
+    "num_dupes": 34,
+    "flesch_index": 106.67,
+    "num_words": 337
+  },
+  {
+    "artist": "George Michael",
+    "num_lines": 78,
+    "sentiment": {
+      "neg": 0.039,
+      "neu": 0.774,
+      "pos": 0.187,
+      "compound": 0.9978
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1991",
+    "pos": 95,
+    "num_syllables": 637.2,
+    "difficult_words": 27,
+    "fog_index": 4.4,
+    "title": "Freedom 90",
+    "num_dupes": 20,
+    "flesch_index": 99.23,
+    "num_words": 523
+  },
+  {
+    "artist": "Jodeci",
+    "num_lines": 61,
+    "sentiment": {
+      "neg": 0.049,
+      "neu": 0.926,
+      "pos": 0.025,
+      "compound": -0.8306
+    },
+    "tags": [],
+    "f_k_grade": 0.1,
+    "year": "1995",
+    "pos": "57",
+    "num_syllables": 486.9,
+    "difficult_words": 14,
+    "fog_index": 4.800000000000001,
+    "title": "Freek'n You",
+    "num_dupes": 52,
+    "flesch_index": 106.67,
+    "num_words": 438
+  },
+  {
+    "artist": "Petey Pablo",
+    "num_lines": 60,
+    "sentiment": {
+      "neg": 0.027,
+      "neu": 0.807,
+      "pos": 0.166,
+      "compound": 0.9967
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": 2004,
+    "pos": 14,
+    "num_syllables": 702.0,
+    "difficult_words": 59,
+    "fog_index": 5.6000000000000005,
+    "title": "Freek-a-Leek",
+    "num_dupes": 30,
+    "flesch_index": 96.18,
+    "num_words": 576
+  },
+  {
+    "artist": "Aretha Franklin",
+    "num_lines": 74,
+    "sentiment": {
+      "neg": 0.03,
+      "neu": 0.714,
+      "pos": 0.256,
+      "compound": 0.9989
+    },
+    "tags": [
+      "jazz",
+      "pop",
+      "hip-hop/rnb",
+      "rock",
+      "soul"
+    ],
+    "f_k_grade": 2.1,
+    "year": "1985",
+    "pos": 43,
+    "num_syllables": 570.6,
+    "difficult_words": 44,
+    "fog_index": 4.4,
+    "title": "Freeway Of Love",
+    "num_dupes": 32,
+    "flesch_index": 90.77,
+    "num_words": 449
+  },
+  {
+    "artist": "Kool and The Gang",
+    "num_lines": 77,
+    "sentiment": {
+      "neg": 0.018,
+      "neu": 0.68,
+      "pos": 0.302,
+      "compound": 0.9989
+    },
+    "tags": [
+      "disco"
+    ],
+    "f_k_grade": -0.7,
+    "year": "1985",
+    "pos": 89,
+    "num_syllables": 450.0,
+    "difficult_words": 20,
+    "fog_index": 4.0,
+    "title": "Fresh",
+    "num_dupes": 55,
+    "flesch_index": 108.7,
+    "num_words": 399
+  },
+  {
+    "artist": "Kelly Price",
+    "num_lines": 78,
+    "sentiment": {
+      "neg": 0.073,
+      "neu": 0.768,
+      "pos": 0.159,
+      "compound": 0.9932
+    },
+    "tags": [],
+    "f_k_grade": 0.1,
+    "year": 1998,
+    "pos": "72",
+    "num_syllables": 650.7,
+    "difficult_words": 40,
+    "fog_index": 4.800000000000001,
+    "title": "Friend Of Mine",
+    "num_dupes": 69,
+    "flesch_index": 106.67,
+    "num_words": 603
+  },
+  {
+    "artist": "Pat Boone",
+    "num_lines": 13,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.705,
+      "pos": 0.295,
+      "compound": 0.9919
+    },
+    "tags": [
+      "country",
+      "pop"
+    ],
+    "f_k_grade": 2.1,
+    "year": 1956,
+    "pos": 52,
+    "num_syllables": 145.8,
+    "difficult_words": 6,
+    "fog_index": 5.6000000000000005,
+    "title": "Friendly Persuasion",
+    "num_dupes": 7,
+    "flesch_index": 96.18,
+    "num_words": 122
+  },
+  {
+    "artist": "Britney Spears",
+    "num_lines": 35,
+    "sentiment": {
+      "neg": 0.099,
+      "neu": 0.686,
+      "pos": 0.215,
+      "compound": 0.986
+    },
+    "tags": [
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": 0.5,
+    "year": 2000,
+    "pos": 77,
+    "num_syllables": 249.3,
+    "difficult_words": 22,
+    "fog_index": 4.0,
+    "title": "From The Bottom Of My Broken Heart",
+    "num_dupes": 13,
+    "flesch_index": 100.24,
+    "num_words": 207
+  },
+  {
+    "artist": "Shania Twain",
+    "num_lines": 48,
+    "sentiment": {
+      "neg": 0.041,
+      "neu": 0.707,
+      "pos": 0.252,
+      "compound": 0.9951
+    },
+    "tags": [
+      "country",
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.1,
+    "year": "1999",
+    "pos": "57",
+    "num_syllables": 274.5,
+    "difficult_words": 14,
+    "fog_index": 3.6,
+    "title": "From This Moment On",
+    "num_dupes": 19,
+    "flesch_index": 101.26,
+    "num_words": 225
+  },
+  {
+    "artist": "Pharrell",
+    "num_lines": 52,
+    "sentiment": {
+      "neg": 0.077,
+      "neu": 0.775,
+      "pos": 0.148,
+      "compound": 0.9837
+    },
+    "tags": [],
+    "f_k_grade": 0.5,
+    "year": "2003",
+    "pos": 34,
+    "num_syllables": 516.6,
+    "difficult_words": 29,
+    "fog_index": 5.2,
+    "title": "Frontin'",
+    "num_dupes": 26,
+    "flesch_index": 105.66,
+    "num_words": 455
+  },
+  {
+    "artist": "Madonna",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.116,
+      "neu": 0.849,
+      "pos": 0.036,
+      "compound": -0.9723
+    },
+    "tags": [
+      "electronic/dance",
+      "electronic/dance",
+      "pop"
+    ],
+    "f_k_grade": -1.8,
+    "year": 1998,
+    "pos": 32,
+    "num_syllables": 225.0,
+    "difficult_words": 9,
+    "fog_index": 5.2,
+    "title": "Frozen",
+    "num_dupes": 23,
+    "flesch_index": 122.58,
+    "num_words": 246
+  },
+  {
+    "artist": "Brandy",
+    "num_lines": 67,
+    "sentiment": {
+      "neg": 0.004,
+      "neu": 0.873,
+      "pos": 0.123,
+      "compound": 0.9947
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": 1.7,
+    "year": 2002,
+    "pos": 89,
+    "num_syllables": 644.4,
+    "difficult_words": 31,
+    "fog_index": 5.2,
+    "title": "Full Moon",
+    "num_dupes": 27,
+    "flesch_index": 97.2,
+    "num_words": 539
+  },
+  {
+    "artist": "Wilson Pickett",
+    "num_lines": 32,
+    "sentiment": {
+      "neg": 0.14,
+      "neu": 0.821,
+      "pos": 0.039,
+      "compound": -0.8548
+    },
+    "tags": [
+      "soul"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1967",
+    "pos": 73,
+    "num_syllables": 201.6,
+    "difficult_words": 22,
+    "fog_index": 3.6,
+    "title": "Funky Broadway",
+    "num_dupes": 14,
+    "flesch_index": 92.8,
+    "num_words": 158
+  },
+  {
+    "artist": "Tone Loc",
+    "num_lines": 54,
+    "sentiment": {
+      "neg": 0.041,
+      "neu": 0.832,
+      "pos": 0.126,
+      "compound": 0.9944
+    },
+    "tags": [],
+    "f_k_grade": 1.7,
+    "year": "1989",
+    "pos": 65,
+    "num_syllables": 558.9,
+    "difficult_words": 58,
+    "fog_index": 5.2,
+    "title": "Funky Cold Medina",
+    "num_dupes": 7,
+    "flesch_index": 97.2,
+    "num_words": 479
+  },
+  {
+    "artist": "Ohio Players",
+    "num_lines": 49,
+    "sentiment": {
+      "neg": 0.055,
+      "neu": 0.782,
+      "pos": 0.162,
+      "compound": 0.98
+    },
+    "tags": [],
+    "f_k_grade": 0.5,
+    "year": "1973",
+    "pos": "84",
+    "num_syllables": 312.3,
+    "difficult_words": 33,
+    "fog_index": 4.0,
+    "title": "Funky Worm",
+    "num_dupes": 8,
+    "flesch_index": 100.24,
+    "num_words": 266
+  },
+  {
+    "artist": "Lipps, Inc.",
+    "num_lines": 50,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.968,
+      "pos": 0.032,
+      "compound": 0.8105
+    },
+    "tags": [
+      "disco",
+      "jazz",
+      "pop"
+    ],
+    "f_k_grade": 1.7,
+    "year": 1980,
+    "pos": 8,
+    "num_syllables": 390.6,
+    "difficult_words": 12,
+    "fog_index": 4.0,
+    "title": "Funkytown",
+    "num_dupes": 49,
+    "flesch_index": 91.78,
+    "num_words": 296
+  },
+  {
+    "artist": "Burl Ives",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.011,
+      "neu": 0.602,
+      "pos": 0.387,
+      "compound": 0.999
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": 1962,
+    "pos": 82,
+    "num_syllables": 306.0,
+    "difficult_words": 11,
+    "fog_index": 4.4,
+    "title": "Funny Way Of Laughin'",
+    "num_dupes": 28,
+    "flesch_index": 99.23,
+    "num_words": 256
+  },
+  {
+    "artist": "Flo Rida",
+    "num_lines": 62,
+    "sentiment": {
+      "neg": 0.111,
+      "neu": 0.857,
+      "pos": 0.032,
+      "compound": -0.9723
+    },
+    "tags": [
+      "electronic/dance"
+    ],
+    "f_k_grade": 0.9,
+    "year": "2015",
+    "pos": 32,
+    "num_syllables": 436.5,
+    "difficult_words": 39,
+    "fog_index": 4.4,
+    "title": "G.D.F.R.",
+    "num_dupes": 27,
+    "flesch_index": 99.23,
+    "num_words": 379
+  },
+  {
+    "artist": "Changing Faces",
+    "num_lines": 25,
+    "sentiment": {
+      "neg": 0.116,
+      "neu": 0.804,
+      "pos": 0.08,
+      "compound": -0.6843
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": "1997",
+    "pos": 31,
+    "num_syllables": 225.0,
+    "difficult_words": 27,
+    "fog_index": 4.4,
+    "title": "G.H.E.T.T.O.U.T.",
+    "num_dupes": 22,
+    "flesch_index": 90.77,
+    "num_words": 173
+  },
+  {
+    "artist": "Glen Campbell",
+    "num_lines": 19,
+    "sentiment": {
+      "neg": 0.071,
+      "neu": 0.884,
+      "pos": 0.045,
+      "compound": -0.4019
+    },
+    "tags": [],
+    "f_k_grade": 0.5,
+    "year": "1969",
+    "pos": 59,
+    "num_syllables": 132.3,
+    "difficult_words": 16,
+    "fog_index": 4.0,
+    "title": "Galveston",
+    "num_dupes": 4,
+    "flesch_index": 100.24,
+    "num_words": 107
+  },
+  {
+    "artist": "Lil' Flip",
+    "num_lines": 39,
+    "sentiment": {
+      "neg": 0.164,
+      "neu": 0.787,
+      "pos": 0.048,
+      "compound": -0.9952
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": 2004,
+    "pos": 65,
+    "num_syllables": 433.8,
+    "difficult_words": 40,
+    "fog_index": 6.0,
+    "title": "Game Over",
+    "num_dupes": 18,
+    "flesch_index": 103.63,
+    "num_words": 390
+  },
+  {
+    "artist": "Joe South",
+    "num_lines": 55,
+    "sentiment": {
+      "neg": 0.081,
+      "neu": 0.821,
+      "pos": 0.098,
+      "compound": 0.4046
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": "1969",
+    "pos": 79,
+    "num_syllables": 426.6,
+    "difficult_words": 27,
+    "fog_index": 4.4,
+    "title": "Games People Play",
+    "num_dupes": 35,
+    "flesch_index": 99.23,
+    "num_words": 357
+  },
+  {
+    "artist": "Alan Parsons Project",
+    "num_lines": 24,
+    "sentiment": {
+      "neg": 0.067,
+      "neu": 0.799,
+      "pos": 0.134,
+      "compound": 0.972
+    },
+    "tags": [
+      "rock"
+    ],
+    "f_k_grade": 2.5,
+    "year": "1981",
+    "pos": "66",
+    "num_syllables": 309.6,
+    "difficult_words": 10,
+    "fog_index": 6.0,
+    "title": "Games People Play",
+    "num_dupes": 17,
+    "flesch_index": 95.17,
+    "num_words": 262
+  },
+  {
+    "artist": "Coolio",
+    "num_lines": 63,
+    "sentiment": {
+      "neg": 0.095,
+      "neu": 0.738,
+      "pos": 0.167,
+      "compound": 0.9935
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": "1995",
+    "pos": 1,
+    "num_syllables": 610.2,
+    "difficult_words": 49,
+    "fog_index": 4.800000000000001,
+    "title": "Gangsta's Paradise",
+    "num_dupes": 35,
+    "flesch_index": 98.21,
+    "num_words": 489
+  },
+  {
+    "artist": "Coolio",
+    "num_lines": 63,
+    "sentiment": {
+      "neg": 0.095,
+      "neu": 0.738,
+      "pos": 0.167,
+      "compound": 0.9935
+    },
+    "tags": [],
+    "f_k_grade": 1.3,
+    "year": 1996,
+    "pos": "33",
+    "num_syllables": 610.2,
+    "difficult_words": 49,
+    "fog_index": 4.800000000000001,
+    "title": "Gangsta's Paradise",
+    "num_dupes": 35,
+    "flesch_index": 98.21,
+    "num_words": 489
+  },
+  {
+    "artist": "Christina Aguilera",
+    "num_lines": 64,
+    "sentiment": {
+      "neg": 0.024,
+      "neu": 0.866,
+      "pos": 0.111,
+      "compound": 0.9888
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1999",
+    "pos": 7,
+    "num_syllables": 534.6,
+    "difficult_words": 28,
+    "fog_index": 4.4,
+    "title": "Genie In A Bottle",
+    "num_dupes": 54,
+    "flesch_index": 99.23,
+    "num_words": 437
+  },
+  {
+    "artist": "Ray Charles",
+    "num_lines": 25,
+    "sentiment": {
+      "neg": 0.037,
+      "neu": 0.671,
+      "pos": 0.292,
+      "compound": 0.9918
+    },
+    "tags": [
+      "blues",
+      "country",
+      "jazz",
+      "pop",
+      "hip-hop/rnb",
+      "soul"
+    ],
+    "f_k_grade": -0.3,
+    "year": 1960,
+    "pos": "78",
+    "num_syllables": 170.1,
+    "difficult_words": 8,
+    "fog_index": 4.4,
+    "title": "Georgia On My Mind",
+    "num_dupes": 12,
+    "flesch_index": 107.69,
+    "num_words": 151
+  },
+  {
+    "artist": "Seekers",
+    "num_lines": 40,
+    "sentiment": {
+      "neg": 0.05,
+      "neu": 0.902,
+      "pos": 0.048,
+      "compound": 0.31
+    },
+    "tags": [
+      "folk"
+    ],
+    "f_k_grade": 1.7,
+    "year": "1967",
+    "pos": "57",
+    "num_syllables": 259.2,
+    "difficult_words": 20,
+    "fog_index": 4.0,
+    "title": "Georgy Girl",
+    "num_dupes": 21,
+    "flesch_index": 91.78,
+    "num_words": 200
+  },
+  {
+    "artist": "Beatles",
+    "num_lines": 35,
+    "sentiment": {
+      "neg": 0.009,
+      "neu": 0.856,
+      "pos": 0.134,
+      "compound": 0.9815
+    },
+    "tags": [
+      "pop",
+      "rock"
+    ],
+    "f_k_grade": 0.9,
+    "year": "1969",
+    "pos": 25,
+    "num_syllables": 280.8,
+    "difficult_words": 23,
+    "fog_index": 4.4,
+    "title": "Get Back",
+    "num_dupes": 26,
+    "flesch_index": 99.23,
+    "num_words": 230
+  },
+  {
+    "artist": "Ludacris",
+    "num_lines": 120,
+    "sentiment": {
+      "neg": 0.128,
+      "neu": 0.839,
+      "pos": 0.034,
+      "compound": -0.9974
+    },
+    "tags": [
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": -0.3,
+    "year": "2005",
+    "pos": 77,
+    "num_syllables": 940.5,
+    "difficult_words": 44,
+    "fog_index": 4.4,
+    "title": "Get Back",
+    "num_dupes": 48,
+    "flesch_index": 107.69,
+    "num_words": 831
+  },
+  {
+    "artist": "Sean Paul",
+    "num_lines": 108,
+    "sentiment": {
+      "neg": 0.079,
+      "neu": 0.79,
+      "pos": 0.131,
+      "compound": 0.9895
+    },
+    "tags": [
+      "pop",
+      "hip-hop/rnb"
+    ],
+    "f_k_grade": -0.3,
+    "year": "2003",
+    "pos": "3",
+    "num_syllables": 802.8,
+    "difficult_words": 34,
+    "fog_index": 4.4,
+    "title": "Get Busy",
+    "num_dupes": 79,
+    "flesch_index": 107.69,
+    "num_words": 718
+  },
+  {
+    "artist": "Seals and Crofts",
+    "num_lines": 30,
+    "sentiment": {
+      "neg": 0.043,
+      "neu": 0.754,
+      "pos": 0.202,
+      "compound": 0.9929
+    },
+    "tags": [],
+    "f_k_grade": 2.1,
+    "year": 1976,
+    "pos": 16,
+    "num_syllables": 338.4,
+    "difficult_words": 19,
+    "fog_index": 5.6000000000000005,
+    "title": "Get Closer",
+    "num_dupes": 15,
+    "flesch_index": 96.18,
+    "num_words": 288
+  },
+  {
+    "artist": "Gilbert O'Sullivan",
+    "num_lines": 36,
+    "sentiment": {
+      "neg": 0.057,
+      "neu": 0.787,
+      "pos": 0.156,
+      "compound": 0.9434
+    },
+    "tags": [],
+    "f_k_grade": -0.3,
+    "year": "1973",
+    "pos": "66",
+    "num_syllables": 261.0,
+    "difficult_words": 7,
+    "fog_index": 4.4,
+    "title": "Get Down",
+    "num_dupes": 20,
+    "flesch_index": 107.69,
+    "num_words": 238
+  },
+  {
+    "artist": "Kool and The Gang",
+    "num_lines": 146,
+    "sentiment": {
+      "neg": 0.009,
+      "neu": 0.971,
+      "pos": 0.02,
+      "compound": 0.6826
+    },
+    "tags": [
+      "disco"
+    ],
+    "f_k_grade": -1.8,
+    "year": 1982,
+    "pos": 82,
+    "num_syllables": 783.9,
+    "difficult_words": 13,
+    "fog_index": 4.0,
+    "title": "Get Down On It",
+    "num_dupes": 133,
+    "flesch_index": 117.16,
+    "num_words": 762
+  },
+  {
+    "artist": "K.C. and The Sunshine Band",
+    "num_lines": 27,
+    "sentiment": {
+      "neg": 0.0,
+      "neu": 0.871,
+      "pos": 0.129,
+      "compound": 0.9825
+    },
+    "tags": [
+      "disco",
+      "pop"
+    ],
+    "f_k_grade": 1.3,
+    "year": "1975",
+    "pos": 64,
+    "num_syllables": 256.5,
+    "difficult_words": 9,
+    "fog_index": 4.800000000000001,
+    "title": "Get Down Tonight",
+    "num_dupes": 16,
+    "flesch_index": 98.21,
+    "num_words": 212
+  },
+  {
+    "artist": "Oleta Adams",
+    "num_lines": 20,
+    "sentiment": {
+      "neg": 0.074,
+      "neu": 0.828,
+      "pos": 0.098,
+      "compound": -0.3391
+    },
+    "tags": [],
+    "f_k_grade": 2.9,
+    "year": "1991",
+    "pos": 80,
+    "num_syllables": 270.9,
+    "difficult_words": 16,
+    "fog_index": 6.4,
+    "title": "Get Here",
+    "num_dupes": 10,
+    "flesch_index": 94.15,
+    "num_words": 230
+  },
+  {
+    "artist": "Montell Jordan",
+    "num_lines": 45,
+    "sentiment": {
+      "neg": 0.09,
+      "neu": 0.791,
+      "pos": 0.119,
+      "compound": 0.8759
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": 2000,
+    "pos": "24",
+    "num_syllables": 333.9,
+    "difficult_words": 20,
+    "fog_index": 4.4,
+    "title": "Get It On Tonite",
+    "num_dupes": 18,
+    "flesch_index": 99.23,
+    "num_words": 275
+  },
+
+  {
+    "artist": "702",
+    "num_lines": 38,
+    "sentiment": {
+      "neg": 0.049,
+      "neu": 0.81,
+      "pos": 0.141,
+      "compound": 0.9745
+    },
+    "tags": [],
+    "f_k_grade": -0.3,
+    "year": "1997",
+    "pos": "48",
+    "num_syllables": 257.4,
+    "difficult_words": 17,
+    "fog_index": 4.4,
+    "title": "Get It Together",
+    "num_dupes": 11,
+    "flesch_index": 107.69,
+    "num_words": 229
+  },
+  {
+    "artist": "David Banner",
+    "num_lines": 90,
+    "sentiment": {
+      "neg": 0.053,
+      "neu": 0.862,
+      "pos": 0.085,
+      "compound": 0.9273
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": 2008,
+    "pos": "66",
+    "num_syllables": 685.8,
+    "difficult_words": 48,
+    "fog_index": 4.4,
+    "title": "Get Like Me",
+    "num_dupes": 37,
+    "flesch_index": 99.23,
+    "num_words": 553
+  },
+  {
+    "artist": "Lil Jon",
+    "num_lines": 86,
+    "sentiment": {
+      "neg": 0.239,
+      "neu": 0.682,
+      "pos": 0.078,
+      "compound": -0.9994
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": "2003",
+    "pos": 11,
+    "num_syllables": 876.6,
+    "difficult_words": 47,
+    "fog_index": 5.6000000000000005,
+    "title": "Get Low",
+    "num_dupes": 44,
+    "flesch_index": 104.64,
+    "num_words": 828
+  },
+  {
+    "artist": "Lil Jon",
+    "num_lines": 86,
+    "sentiment": {
+      "neg": 0.239,
+      "neu": 0.682,
+      "pos": 0.078,
+      "compound": -0.9994
+    },
+    "tags": [],
+    "f_k_grade": 0.9,
+    "year": 2004,
+    "pos": 70,
+    "num_syllables": 876.6,
+    "difficult_words": 47,
+    "fog_index": 5.6000000000000005,
+    "title": "Get Low",
+    "num_dupes": 44,
+    "flesch_index": 104.64,
+    "num_words": 828
+  }
+]}

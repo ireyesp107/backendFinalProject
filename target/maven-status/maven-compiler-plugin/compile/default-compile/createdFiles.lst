@@ -1,0 +1,17 @@
+weatherTypes/WeatherProperties.class
+edu/brown/cs32/examples/moshiExample/csv/Count.class
+edu/brown/cs32/examples/moshiExample/server/Handlers/getCSVHandler$BadRequestFailureResponse.class
+edu/brown/cs32/examples/moshiExample/server/Handlers/loadCSVHandler.class
+edu/brown/cs32/examples/moshiExample/server/Handlers/weatherHandler.class
+edu/brown/cs32/examples/moshiExample/server/csvData.class
+edu/brown/cs32/examples/moshiExample/csv/ListStringCreator.class
+weatherTypes/Period.class
+edu/brown/cs32/examples/moshiExample/csv/FactoryFailureException.class
+edu/brown/cs32/examples/moshiExample/csv/CreatorFromRow.class
+edu/brown/cs32/examples/moshiExample/server/Server.class
+edu/brown/cs32/examples/moshiExample/server/Handlers/getCSVHandler.class
+weatherTypes/ForecastEndpoint.class
+edu/brown/cs32/examples/moshiExample/server/Handlers/genericHandler.class
+edu/brown/cs32/examples/moshiExample/csv/Parse.class
+weatherTypes/ForecastProperties.class
+weatherTypes/WeatherEndpoint.class

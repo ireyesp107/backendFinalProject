@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>csvData.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">moshi</a> &gt; <a href="index.source.html" class="el_package">edu.brown.cs32.examples.moshiExample.server</a> &gt; <span class="el_source">csvData.java</span></div><h1>csvData.java</h1><pre class="source lang-java linenums">package edu.brown.cs32.examples.moshiExample.server;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * class of the shared csv data
+ */
+
+public class csvData {
+  public static List&lt;List&lt;String&gt;&gt; csvContent;
+  // to be able to get only once
+  public boolean loaded;
+
+  /**
+   * constructor that initialized the array for the csv content and sets bool to false
+   */
+
+<span class="fc" id="L19">  public csvData(){</span>
+<span class="fc" id="L20">    this.csvContent = new ArrayList&lt;&gt;();</span>
+<span class="fc" id="L21">    this.loaded = false;</span>
+<span class="fc" id="L22">  }</span>
+
+  /**
+   * sets the csv content and sets bool to true
+   * @param csvContent, content of csv
+   */
+  public void setCSVData(List&lt;List&lt;String&gt;&gt; csvContent) {
+<span class="fc" id="L29">    this.loaded = true;</span>
+<span class="fc" id="L30">    this.csvContent = csvContent;</span>
+<span class="fc" id="L31">  }</span>
+
+  /**
+   * gets the csv content
+   * @return csv content
+   */
+
+  public List&lt;List&lt;String&gt;&gt; getCSVData(){
+<span class="fc" id="L39">    this.loaded = false;</span>
+<span class="fc" id="L40">    return this.csvContent;</span>
+  }
+
+  public void clearcsv() {
+<span class="fc" id="L44">    this.csvContent.clear();</span>
+<span class="fc" id="L45">  }</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

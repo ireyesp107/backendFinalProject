@@ -1,0 +1,17 @@
+GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
+moshi,weatherTypes,Period,0,3,0,0,0,1,0,1,0,1
+moshi,weatherTypes,ForecastProperties,0,3,0,0,0,1,0,1,0,1
+moshi,weatherTypes,WeatherEndpoint,0,3,0,0,0,1,0,1,0,1
+moshi,weatherTypes,ForecastEndpoint,0,3,0,0,0,1,0,1,0,1
+moshi,weatherTypes,WeatherProperties,0,3,0,0,0,1,0,1,0,1
+moshi,edu.brown.cs32.examples.moshiExample.csv,Parse,20,55,1,3,9,15,1,3,0,2
+moshi,edu.brown.cs32.examples.moshiExample.csv,ListStringCreator,0,5,0,0,0,2,0,2,0,2
+moshi,edu.brown.cs32.examples.moshiExample.csv,FactoryFailureException,6,0,0,0,3,0,1,0,1,0
+moshi,edu.brown.cs32.examples.moshiExample.csv,Count,122,0,6,0,20,0,5,0,2,0
+moshi,edu.brown.cs32.examples.moshiExample.server,Server,48,0,0,0,14,0,3,0,3,0
+moshi,edu.brown.cs32.examples.moshiExample.server,csvData,0,32,0,0,0,11,0,4,0,4
+moshi,edu.brown.cs32.examples.moshiExample.server.Handlers,getCSVHandler,0,46,0,2,0,12,0,3,0,2
+moshi,edu.brown.cs32.examples.moshiExample.server.Handlers,getCSVHandler.BadRequestFailureResponse,24,0,0,0,4,0,4,0,4,0
+moshi,edu.brown.cs32.examples.moshiExample.server.Handlers,genericHandler,31,97,0,0,5,17,1,4,1,4
+moshi,edu.brown.cs32.examples.moshiExample.server.Handlers,loadCSVHandler,5,76,0,4,2,18,0,4,0,2
+moshi,edu.brown.cs32.examples.moshiExample.server.Handlers,weatherHandler,5,238,4,10,2,48,4,7,0,4

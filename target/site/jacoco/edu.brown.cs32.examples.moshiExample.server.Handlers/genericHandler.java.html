@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>genericHandler.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">moshi</a> &gt; <a href="index.source.html" class="el_package">edu.brown.cs32.examples.moshiExample.server.Handlers</a> &gt; <span class="el_source">genericHandler.java</span></div><h1>genericHandler.java</h1><pre class="source lang-java linenums">package edu.brown.cs32.examples.moshiExample.server.Handlers;
+
+import com.squareup.moshi.JsonAdapter;
+import com.squareup.moshi.Moshi;
+import com.squareup.moshi.Moshi.Builder;
+import com.squareup.moshi.Types;
+import java.lang.reflect.Type;
+import java.util.HashMap;
+import java.util.Map;
+
+/**
+ * facilitates adding a new data source by having common data for different handlers
+ */
+
+public class genericHandler {
+
+
+  public static HashMap&lt;String, Object&gt; hashMap;
+
+  /**
+   * initializes the hashmap used in all handlers
+   */
+<span class="fc" id="L23">  public genericHandler() {</span>
+<span class="fc" id="L24">    this.hashMap = new HashMap&lt;&gt;();</span>
+
+<span class="fc" id="L26">  }</span>
+
+  /**
+   * serializes a map into a json string
+   * @param map, the map of the different responses
+   * @return the json of the map
+   */
+
+  String serialize(HashMap&lt;String, Object&gt; map) {
+<span class="fc" id="L35">    Moshi moshi = new Builder().build();</span>
+<span class="fc" id="L36">    Type type = Types.newParameterizedType(Map.class, String.class, Object.class);</span>
+<span class="fc" id="L37">    JsonAdapter&lt;Map&gt; jsonAdapter = moshi.adapter(type);</span>
+<span class="fc" id="L38">    return jsonAdapter.toJson(map);</span>
+  }
+
+  String BadJsonSerialize(HashMap&lt;String, Object&gt; map) {
+<span class="nc" id="L42">    map.put(&quot;Result&quot;, &quot;error_bad_json&quot;);</span>
+<span class="nc" id="L43">    Moshi moshi = new Builder().build();</span>
+<span class="nc" id="L44">    Type type = Types.newParameterizedType(Map.class, String.class, Object.class);</span>
+<span class="nc" id="L45">    JsonAdapter&lt;Map&gt; jsonAdapter = moshi.adapter(type);</span>
+<span class="nc" id="L46">    return jsonAdapter.toJson(map);</span>
+  }
+
+  String DatasourceSerialize(HashMap&lt;String, Object&gt; map) {
+<span class="fc" id="L50">    map.put(&quot;Result&quot;, &quot;error_datasource&quot;);</span>
+<span class="fc" id="L51">    Moshi moshi = new Builder().build();</span>
+<span class="fc" id="L52">    Type type = Types.newParameterizedType(Map.class, String.class, Object.class);</span>
+<span class="fc" id="L53">    JsonAdapter&lt;Map&gt; jsonAdapter = moshi.adapter(type);</span>
+<span class="fc" id="L54">    return jsonAdapter.toJson(map);</span>
+  }
+
+
+  String BadRequestSerialize(HashMap&lt;String, Object&gt; map) {
+<span class="fc" id="L59">      map.put(&quot;Result&quot;, &quot;error_bad_request&quot;);</span>
+<span class="fc" id="L60">      Moshi moshi = new Builder().build();</span>
+<span class="fc" id="L61">      Type type = Types.newParameterizedType(Map.class, String.class, Object.class);</span>
+<span class="fc" id="L62">      JsonAdapter&lt;Map&gt; jsonAdapter = moshi.adapter(type);</span>
+<span class="fc" id="L63">      return jsonAdapter.toJson(map);</span>
+ }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
