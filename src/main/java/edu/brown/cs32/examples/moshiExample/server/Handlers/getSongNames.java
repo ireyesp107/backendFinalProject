@@ -8,10 +8,8 @@ import spark.Route;
 
 public class getSongNames extends genericHandler implements Route {
 
-  private String[] songNames;
+  public String[] songNames;
   public getSongNames() {
-
-
     this.songNames = new String[]{"(everything i do) i do it for you",
         "(i can't get no) satisfaction",
         "(i know) i'm losing you", "(i've been) searchin' so long",
@@ -671,27 +669,22 @@ public class getSongNames extends genericHandler implements Route {
   @Override
   public Object handle(Request request, Response response) throws IOException {
       hashMap.clear();
-    System.out.println("hellooo");
       System.out.println(hashMap);
 
       try {
-        System.out.println("hellooo");
-
-
 //        this.songInList = Arrays.stream(this.songNames).anyMatch(songsWanted::equals);
 //        if (this.songInList) {
           hashMap.put("Song", this.songNames);
           hashMap.put("Result", "Success");
-
-
-
   } catch (Exception e) {
           return BadRequestSerialize(hashMap);
         }
     HashMap<String, Object> hashMapSuccessCopy = new HashMap(hashMap);
     return serialize(hashMapSuccessCopy);
+  }
 
-
+  public String[] getter(){
+    return this.songNames;
   }
 
 }
