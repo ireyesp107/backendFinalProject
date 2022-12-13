@@ -34,7 +34,7 @@ public class GetCategories extends genericHandler implements Route {
 
   public static HashMap<String, HashMap> createSongMap() throws IOException {
     PropertyCollection jsonData = songsHandler(
-        "/Users/student/Documents/GitHub/backendFinalProject/src/main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/songs.json");
+        "/Users/baharbirsel/Desktop/brown/brown_semester3/cs32/backendFinalProject/src/main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/songs.json");
     HashMap<String, HashMap> songMap = new HashMap<>();
     for(int i = 0; i < jsonData.properties.size(); i ++){
       HashMap categories = new HashMap();

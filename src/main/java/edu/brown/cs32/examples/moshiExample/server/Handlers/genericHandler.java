@@ -39,7 +39,9 @@ public class genericHandler {
   }
 
   String BadJsonSerialize(HashMap<String, Object> map) {
-    map.put("Result", "error_bad_json");
+    Map badjson = new HashMap();
+    badjson.put("errorType", "error_bad_json");
+    map.put("Result", badjson);
     Moshi moshi = new Builder().build();
     Type type = Types.newParameterizedType(Map.class, String.class, Object.class);
     JsonAdapter<Map> jsonAdapter = moshi.adapter(type);
@@ -47,7 +49,9 @@ public class genericHandler {
   }
 
   String DatasourceSerialize(HashMap<String, Object> map) {
-    map.put("Result", "error_datasource");
+    Map datasource = new HashMap();
+    datasource.put("errorType", "error_datasource");
+    map.put("Result", datasource);
     Moshi moshi = new Builder().build();
     Type type = Types.newParameterizedType(Map.class, String.class, Object.class);
     JsonAdapter<Map> jsonAdapter = moshi.adapter(type);
@@ -56,7 +60,9 @@ public class genericHandler {
 
 
   String BadRequestSerialize(HashMap<String, Object> map) {
-      map.put("Result", "error_bad_request");
+    Map badrequest = new HashMap();
+    badrequest.put("errorType", "error_bad_request");
+    map.put("Result", badrequest);
       Moshi moshi = new Builder().build();
       Type type = Types.newParameterizedType(Map.class, String.class, Object.class);
       JsonAdapter<Map> jsonAdapter = moshi.adapter(type);
