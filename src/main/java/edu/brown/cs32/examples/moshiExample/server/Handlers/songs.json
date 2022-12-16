@@ -354,29 +354,6 @@
     "num_words": 220
   },
   {
-    "artist": "Stray Cats",
-    "num_lines": 33,
-    "sentiment": {
-      "neg": 0.109,
-      "neu": 0.805,
-      "pos": 0.086,
-      "compound": -0.7753
-    },
-    "tags": [
-      "rock"
-    ],
-    "f_k_grade": 2.5,
-    "year": "1983",
-    "pos": "84",
-    "num_syllables": 423.0,
-    "difficult_words": 22,
-    "fog_index": 6.0,
-    "title": "(She's) Sexy + 17",
-    "num_dupes": 13,
-    "flesch_index": 95.17,
-    "num_words": 357
-  },
-  {
     "artist": "Otis Redding",
     "num_lines": 25,
     "sentiment": {

@@ -2,13 +2,8 @@ package edu.brown.cs32.examples.moshiExample.server;
 
 import static spark.Spark.after;
 
-import edu.brown.cs32.examples.moshiExample.server.Handlers.GetCategories;
-import edu.brown.cs32.examples.moshiExample.server.Handlers.geoJsonHandler;
-import edu.brown.cs32.examples.moshiExample.server.Handlers.getCSVHandler;
-import edu.brown.cs32.examples.moshiExample.server.Handlers.getSongNames;
-import edu.brown.cs32.examples.moshiExample.server.Handlers.loadCSVHandler;
-import edu.brown.cs32.examples.moshiExample.server.Handlers.statsHandler;
-import edu.brown.cs32.examples.moshiExample.server.Handlers.weatherHandler;
+import edu.brown.cs32.examples.moshiExample.server.Handlers.*;
+
 import java.io.IOException;
 import java.util.HashMap;
 import spark.Spark;
@@ -23,8 +18,10 @@ public class Server {
     public static void main(String[] args) throws IOException {
         csvData csvContent = new csvData();
         HashMap<String, HashMap> songMapData = new HashMap<>();
+        HashMap<String, HashMap> easySongData = new HashMap<>();
         songMapData = GetCategories.createSongMap();
-        System.out.println(songMapData);
+        easySongData = GetCategories.createEasyMap();
+        System.out.println(easySongData);
         Spark.port(3131);
         /*
             Setting CORS headers to allow cross-origin requests from the client; this is necessary for the client to

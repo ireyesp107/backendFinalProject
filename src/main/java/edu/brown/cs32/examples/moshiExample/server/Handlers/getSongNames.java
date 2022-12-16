@@ -18,7 +18,7 @@ public class getSongNames extends genericHandler implements Route {
         "(marie's the name) his latest flame",
         "(now and then there's) a fool such as i", "(oh) pretty woman",
         "(shake, shake, shake) shake your booty",
-        "(she's) sexy + 17", "(sittin' on) the dock of the bay", "(theme from) valley of the dolls",
+         "(sittin' on) the dock of the bay", "(theme from) valley of the dolls",
         "(they long to be) close to you",
         "(when you gonna) give it up to me", "(you gotta) fight for your right",
         "(you're the) devil in disguise",
