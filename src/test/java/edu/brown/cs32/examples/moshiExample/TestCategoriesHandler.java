@@ -7,12 +7,17 @@ import edu.brown.cs32.examples.moshiExample.server.Handlers.GetCategories;
 import edu.brown.cs32.examples.moshiExample.server.Handlers.weatherHandler;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.Charset;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.text.html.parser.Parser;
 import okio.Buffer;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
@@ -167,5 +172,39 @@ public class TestCategoriesHandler {
     assertEquals("{errorType=error_bad_request}",  mapResponse.get("Result").toString());
     clientConnection.disconnect();
   }
+
+  public String randomCSV(int num) {
+    final ThreadLocalRandom r = ThreadLocalRandom.current();
+    int id;
+
+    id = r.nextInt(1,num);
+    byte[] bytes = new byte[id];
+    r.nextBytes(bytes);
+    String name = new String(bytes, Charset.forName("UTF-8"));
+
+
+    System.out.println(name);
+    return name;
+  }
+  // fuzz tester
+//  @Test
+//  public void fuzzTestParser() throws IOException {
+//    // number of trials/ times the code runs for a random csv and parser
+//    final int NUM_TRIALS = 20;
+//    // the maximum length of a string in the csv
+//    final int MAX_STRINGS = 10;
+//    // the maximum number of columns inside the csv
+//    for(int counter=0;counter<NUM_TRIALS;counter++) {
+//
+//      // calling this helper produces a random CSV-formatted string
+//      // that contains a set of encoded String objects
+//      String song = randomCSV(MAX_STRINGS);
+//
+//      HttpURLConnection clientConnection = tryRequest("songs?songs="+song);
+//      //assertEquals(200,  clientConnection.getResponseCode());
+//    }
+//
+//  }
+
 
 }
