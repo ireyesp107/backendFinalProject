@@ -19,7 +19,7 @@ import spark.Spark;
  */
 
 
-public class Server {
+public class  Server {
     public static void main(String[] args) throws IOException {
         csvData csvContent = new csvData();
         HashMap<String, HashMap> songMapData = new HashMap<>();
