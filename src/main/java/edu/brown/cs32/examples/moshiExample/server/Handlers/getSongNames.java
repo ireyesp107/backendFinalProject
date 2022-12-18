@@ -26,16 +26,18 @@ public class getSongNames extends genericHandler implements Route {
     String data = new String(Files.readAllBytes(Paths.get(path)));
     Moshi moshi = new Moshi.Builder().build();
     dataContent = moshi.adapter(EasySongs.class).fromJson(data);
-    System.out.println(dataContent);
+    System.out.println("Made it");
     return dataContent;
 
   }
 
   public static DiffSongs getDiffSongNames(String path) throws IOException {
+    System.out.println("chay");
     DiffSongs dataContent;
     String data = new String(Files.readAllBytes(Paths.get(path)));
     Moshi moshi = new Moshi.Builder().build();
     dataContent = moshi.adapter(DiffSongs.class).fromJson(data);
+    System.out.println("Made it");
     return dataContent;
   }
 
@@ -46,15 +48,14 @@ public class getSongNames extends genericHandler implements Route {
   @Override
   public Object handle(Request request, Response response) throws IOException {
     System.out.println("yo");
-    DiffSongs songDiff = getDiffSongNames("/Users/amaris/Desktop/cs32/backendFinalProject/src/"
-        + "main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/diffsongNames.json");
+    DiffSongs songDiff = getDiffSongNames("/Users/isaias/Desktop/CS0320/backendFinalProject/src/main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/diffsongNames.json");
 
 
 
-    EasySongs songEasy = getEasySongNames("/Users/amaris/Desktop/cs32/backendFinalProject/src/"
-        + "main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/easysongNames.json");
-    System.out.println("song easy size" + songEasy);
-    System.out.println("song hard size" + songDiff);
+    EasySongs songEasy = getEasySongNames("/Users/isaias/Desktop/CS0320/backendFinalProject/src/main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/easysongNames.json");
+    System.out.println(songEasy.EasySongs);
+    //System.out.println("song easy size" + songEasy);
+    //System.out.println("song hard size" + songDiff);
     System.out.println("yooo");
     QueryParamsMap qpm = request.queryMap();
       hashMap.clear();

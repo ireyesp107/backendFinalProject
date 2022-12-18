@@ -38,14 +38,11 @@ public class GetCategories extends genericHandler implements Route {
   public static HashMap<String, HashMap> createSongMap() throws IOException {
     System.out.println("omg");
     PropertyCollection jsonData = songsHandler(
-<<<<<<< HEAD
+
 
         "src/main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/songs.json");
 
-=======
-        "/Users/amaris/Desktop/cs32/backendFinalProject/src/main/java/edu/brown/cs32/examples/"
-            + "moshiExample/server/Handlers/songs.json");
->>>>>>> d43d98f70c87b47470fcc9ebd8cdbf2d00fca032
+
     HashMap<String, HashMap> songMap = new HashMap<>();
     for(int i = 0; i < jsonData.properties.size(); i ++){
       HashMap categories = new HashMap();
@@ -67,12 +64,9 @@ public class GetCategories extends genericHandler implements Route {
 
   public static HashMap<String, HashMap> createEasyMap() throws IOException {
     PropertyCollection jsonData = songsHandler(
-<<<<<<< HEAD
+
             "src/main/java/edu/brown/cs32/examples/moshiExample/server/Handlers/songs.json");
-=======
-        "/Users/amaris/Desktop/cs32/backendFinalProject/src/main/java/edu/brown/cs32/examples/"
-            + "moshiExample/server/Handlers/songs.json");
->>>>>>> d43d98f70c87b47470fcc9ebd8cdbf2d00fca032
+
     HashMap<String, HashMap> easySongMap = new HashMap<>();
     for(int i = 0; i < jsonData.properties.size(); i ++){
       HashMap categories = new HashMap();

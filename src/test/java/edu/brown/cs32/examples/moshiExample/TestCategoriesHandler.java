@@ -4,11 +4,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import com.squareup.moshi.Moshi;
 import edu.brown.cs32.examples.moshiExample.server.Handlers.GetCategories;
-import edu.brown.cs32.examples.moshiExample.server.Handlers.weatherHandler;
-import java.io.FileNotFoundException;
+
 import java.io.IOException;
-import java.io.Reader;
-import java.io.StringReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.Charset;
@@ -17,7 +14,7 @@ import java.util.Map;
 import java.util.concurrent.ThreadLocalRandom;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.swing.text.html.parser.Parser;
+
 import okio.Buffer;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;

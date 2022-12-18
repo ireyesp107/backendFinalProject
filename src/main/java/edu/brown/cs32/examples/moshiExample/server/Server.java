@@ -16,7 +16,6 @@ import spark.Spark;
 
 public class  Server {
     public static void main(String[] args) throws IOException {
-        csvData csvContent = new csvData();
         HashMap<String, HashMap> songMapData = new HashMap<>();
         HashMap<String, HashMap> easySongData = new HashMap<>();
         songMapData = GetCategories.createSongMap();
@@ -48,11 +47,7 @@ public class  Server {
         });
 
         // Setting up the handler for the GET /order endpoint
-        Spark.get("loadcsv", new loadCSVHandler(csvContent));
-        Spark.get("getcsv", new getCSVHandler(csvContent));
-        Spark.get("weather", new weatherHandler());
-        Spark.get("stats", new statsHandler(csvContent));
-        Spark.get("json", new geoJsonHandler());
+
         Spark.get("songs", new GetCategories(songMapData, easySongData));
         Spark.get("allsongs", new getSongNames());
         //Spark.get("weather", new weatherHandler)
