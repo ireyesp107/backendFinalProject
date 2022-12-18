@@ -21,8 +21,10 @@ public class Server {
         HashMap<String, HashMap> easySongData = new HashMap<>();
         songMapData = GetCategories.createSongMap();
         easySongData = GetCategories.createEasyMap();
-        System.out.println(easySongData);
-        Spark.port(3131);
+//        diffSong = getSongNames.getDiffSongNames();
+//        easySong = getSongNames.getEasySongNames();
+//        System.out.println(easySongData);
+        Spark.port(5151);
         /*
             Setting CORS headers to allow cross-origin requests from the client; this is necessary for the client to
             be able to make requests to the server.
@@ -51,7 +53,7 @@ public class Server {
         Spark.get("weather", new weatherHandler());
         Spark.get("stats", new statsHandler(csvContent));
         Spark.get("json", new geoJsonHandler());
-        Spark.get("songs", new GetCategories(songMapData));
+        Spark.get("songs", new GetCategories(songMapData, easySongData));
         Spark.get("allsongs", new getSongNames());
         //Spark.get("weather", new weatherHandler)
         Spark.init();

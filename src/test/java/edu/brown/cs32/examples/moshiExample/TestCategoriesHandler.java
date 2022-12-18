@@ -37,8 +37,9 @@ public class TestCategoriesHandler {
   @BeforeEach
   public void setup() throws IOException {
     HashMap<String, HashMap> songMapData = new HashMap<>();
+    HashMap<String, HashMap> easysongMapData = new HashMap<>();
     songMapData = GetCategories.createSongMap();
-    Spark.get("/songs", new GetCategories(songMapData));
+    Spark.get("/songs", new GetCategories(songMapData, easysongMapData));
     Spark.init();
     Spark.awaitInitialization();
   }
