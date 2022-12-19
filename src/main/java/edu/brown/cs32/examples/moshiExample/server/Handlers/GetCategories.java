@@ -16,7 +16,9 @@ import spark.Response;
 import spark.Route;
 
 
-
+/**
+ * Gets the categories of a song.
+ */
 public class GetCategories extends genericHandler implements Route {
   private HashMap<String, ArrayList> categories;
   public HashMap<String, HashMap> songMap;
@@ -27,6 +29,13 @@ public class GetCategories extends genericHandler implements Route {
     easysongMap = easysongMapInput;
   }
 
+  /**
+   * Get the map of the categories of each songs from the json.
+   * @param path, path of the json
+   * @return the list of the categories map
+   * @throws IOException
+   */
+
   public static PropertyCollection songsHandler(String path) throws IOException {
     PropertyCollection dataContent;
     String data = new String(Files.readAllBytes(Paths.get(path)));
@@ -34,6 +43,12 @@ public class GetCategories extends genericHandler implements Route {
     dataContent = moshi.adapter(PropertyCollection.class).fromJson(data);
     return dataContent;
   }
+
+  /**
+   * Creates the song map for the wanted categories for the difficult songs.
+   * @return the map with the wanted categories (artist, pos, tag, year)
+   * @throws IOException
+   */
 
   public static HashMap<String, HashMap> createSongMap() throws IOException {
     System.out.println("omg");
@@ -62,6 +77,12 @@ public class GetCategories extends genericHandler implements Route {
 
   }
 
+  /**
+   * Creates the song map for the wanted categories for the easy songs.
+   * @return the map with the wanted categories (artist, pos, tag, year)
+   * @throws IOException
+   */
+
   public static HashMap<String, HashMap> createEasyMap() throws IOException {
     PropertyCollection jsonData = songsHandler(
 
@@ -88,6 +109,14 @@ public class GetCategories extends genericHandler implements Route {
     return easySongMap;
   }
 
+  /**
+   * Handles the request putting categories map of the song inputted and the target song into a map.
+   * @param request
+   * @param response
+   * @return
+   * @throws IOException
+   */
+
   @Override
   public Object handle(Request request, Response response) throws IOException {
     System.out.println("handle");
@@ -102,8 +131,8 @@ public class GetCategories extends genericHandler implements Route {
     HashMap<String, Object> finalMap = new HashMap();
     getSongNames assist = new getSongNames();
     System.out.println("songsearch is " + songSearch);
-   // String[] list = assist.getter();
-   // System.out.println(Arrays.toString(list));
+//    String[] list = assist.getter();
+//    System.out.println(Arrays.toString(list));
 
 
     if (!(qpm.hasKey("easysongs")) && !(qpm.hasKey("diffsongs"))){
@@ -115,10 +144,14 @@ public class GetCategories extends genericHandler implements Route {
       System.out.println("b");
       return BadRequestSerialize(hashMap);
     }
-//    if (qpm.hasKey("songs") && !Arrays.asList(list).contains(songSearch)) {
-//      hashMap.clear();
-//      return DatasourceSerialize(hashMap);
-//    }
+    if (qpm.hasKey("easysongs") && !Arrays.asList(this.easysongMap).contains(songSearch)) {
+      hashMap.clear();
+      return DatasourceSerialize(hashMap);
+    }
+    if (qpm.hasKey("diffsongs") && !Arrays.asList(this.songMap).contains(songSearch)) {
+      hashMap.clear();
+      return DatasourceSerialize(hashMap);
+    }
     if (!(request.queryParams().size() == 1)){
       hashMap.clear();
       System.out.println("c");
