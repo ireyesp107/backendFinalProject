@@ -131,8 +131,8 @@ public class GetCategories extends genericHandler implements Route {
     HashMap<String, Object> finalMap = new HashMap();
     getSongNames assist = new getSongNames();
     System.out.println("songsearch is " + songSearch);
-//    String[] list = assist.getter();
-//    System.out.println(Arrays.toString(list));
+    //String[] list = assist.getter();
+   //System.out.println(Arrays.toString(list));
 
 
     if (!(qpm.hasKey("easysongs")) && !(qpm.hasKey("diffsongs"))){
@@ -144,14 +144,15 @@ public class GetCategories extends genericHandler implements Route {
       System.out.println("b");
       return BadRequestSerialize(hashMap);
     }
-    if (qpm.hasKey("easysongs") && !Arrays.asList(this.easysongMap).contains(songSearch)) {
+    if (qpm.hasKey("easysongs") && !(this.easysongMap.containsKey(songSearch))) {
       hashMap.clear();
       return DatasourceSerialize(hashMap);
     }
-    if (qpm.hasKey("diffsongs") && !Arrays.asList(this.songMap).contains(songSearch)) {
+    if (qpm.hasKey("diffsongs") && !(this.songMap.containsKey(songSearch))) {
       hashMap.clear();
       return DatasourceSerialize(hashMap);
     }
+
     if (!(request.queryParams().size() == 1)){
       hashMap.clear();
       System.out.println("c");
