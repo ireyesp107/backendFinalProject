@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * facilitates adding a new data source by having common data for different handlers
+ * Facilitates adding a new data source by having common data for different handlers.
  */
 
 public class genericHandler {
@@ -18,7 +18,7 @@ public class genericHandler {
   public static HashMap<String, Object> hashMap;
 
   /**
-   * initializes the hashmap used in all handlers
+   * Initializes the hashmap used in all handlers.
    */
   public genericHandler() {
     this.hashMap = new HashMap<>();
@@ -26,7 +26,7 @@ public class genericHandler {
   }
 
   /**
-   * serializes a map into a json string
+   * Serializes a map into a json string.
    * @param map, the map of the different responses
    * @return the json of the map
    */
@@ -38,6 +38,12 @@ public class genericHandler {
     return jsonAdapter.toJson(map);
   }
 
+  /**
+   * Serializes bad json error
+   * @param map that will contain the error
+   * @return json of the error map
+   */
+
   String BadJsonSerialize(HashMap<String, Object> map) {
     Map badjson = new HashMap();
     badjson.put("errorType", "error_bad_json");
@@ -47,6 +53,12 @@ public class genericHandler {
     JsonAdapter<Map> jsonAdapter = moshi.adapter(type);
     return jsonAdapter.toJson(map);
   }
+
+  /**
+   * Serializes datasource error
+   * @param map that will contain the error
+   * @return json of the error map
+   */
 
   String DatasourceSerialize(HashMap<String, Object> map) {
     Map datasource = new HashMap();
@@ -58,6 +70,11 @@ public class genericHandler {
     return jsonAdapter.toJson(map);
   }
 
+  /**
+   * Serializes bad json error
+   * @param map that will contain the error
+   * @return json of the error map
+   */
 
   String BadRequestSerialize(HashMap<String, Object> map) {
     Map badrequest = new HashMap();

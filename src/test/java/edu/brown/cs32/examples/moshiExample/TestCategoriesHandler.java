@@ -58,7 +58,7 @@ public class TestCategoriesHandler {
   }
   @Test
   public void testSuccessfulGettingCategories() throws Exception {
-    HttpURLConnection clientConnection = tryRequest("songs?songs=wiggle");
+    HttpURLConnection clientConnection = tryRequest("songs?diffsongs=wiggle");
     assertEquals(200,  clientConnection.getResponseCode());
 
     Moshi moshi = new Moshi.Builder().build();
@@ -70,7 +70,7 @@ public class TestCategoriesHandler {
     System.out.println(clientConnection.getResponseCode());
 
     //works with spaces in between the query words
-    HttpURLConnection clientConnection2 = tryRequest("songs?songs=somebody%20that%20i%20used%20to%20know");
+    HttpURLConnection clientConnection2 = tryRequest("songs?diffsongs=somebody%20that%20i%20used%20to%20know");
     assertEquals(200,  clientConnection.getResponseCode());
 
     Moshi moshi2 = new Moshi.Builder().build();
@@ -82,7 +82,7 @@ public class TestCategoriesHandler {
     System.out.println(clientConnection2.getResponseCode());
 
     //works with "_" in between the query words
-    HttpURLConnection clientConnection3 = tryRequest("songs?songs=somebody_that_i_used_to_know");
+    HttpURLConnection clientConnection3 = tryRequest("songs?diffsongs=somebody_that_i_used_to_know");
     assertEquals(200,  clientConnection.getResponseCode());
 
     Moshi moshi3 = new Moshi.Builder().build();
@@ -94,7 +94,7 @@ public class TestCategoriesHandler {
     System.out.println(clientConnection3.getResponseCode());
 
     // works if inputted song is uppercase
-    HttpURLConnection clientConnection4 = tryRequest("songs?songs=WIGGLE");
+    HttpURLConnection clientConnection4 = tryRequest("songs?diffsongs=WIGGLE");
     assertEquals(200,  clientConnection.getResponseCode());
     Moshi moshi4 = new Moshi.Builder().build();
     Map response4 = moshi4.adapter(Map.class).fromJson
@@ -105,7 +105,7 @@ public class TestCategoriesHandler {
     System.out.println(clientConnection4.getResponseCode());
 
     // works if inputted song is uppercase and has spaces in between query words
-    HttpURLConnection clientConnection5 = tryRequest("songs?songs=SOMEBODY%20THAT%20I%20USED%20TO%20KNOW");
+    HttpURLConnection clientConnection5 = tryRequest("songs?diffsongs=SOMEBODY%20THAT%20I%20USED%20TO%20KNOW");
     assertEquals(200,  clientConnection.getResponseCode());
     Moshi moshi5 = new Moshi.Builder().build();
     Map response5 = moshi5.adapter(Map.class).fromJson
@@ -116,7 +116,7 @@ public class TestCategoriesHandler {
     System.out.println(clientConnection5.getResponseCode());
 
     // works if inputted songs is uppercase and has "_" in between
-    HttpURLConnection clientConnection6 = tryRequest("songs?songs=SOMEBODY_THAT_I_USED_TO_KNOW");
+    HttpURLConnection clientConnection6 = tryRequest("songs?diffsongs=SOMEBODY_THAT_I_USED_TO_KNOW");
     assertEquals(200,  clientConnection.getResponseCode());
     Moshi moshi6 = new Moshi.Builder().build();
     Map response6 = moshi6.adapter(Map.class).fromJson
