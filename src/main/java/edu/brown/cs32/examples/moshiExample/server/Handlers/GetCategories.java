@@ -115,11 +115,11 @@ public class GetCategories extends genericHandler implements Route {
       System.out.println("b");
       return BadRequestSerialize(hashMap);
     }
-    if (qpm.hasKey("easysongs") && !Arrays.asList(this.easysongMap).contains(songSearch)) {
+    if (qpm.hasKey("easysongs") && !(this.easysongMap.containsKey(songSearch))) {
       hashMap.clear();
       return DatasourceSerialize(hashMap);
     }
-    if (qpm.hasKey("diffsongs") && !Arrays.asList(this.songMap).contains(songSearch)) {
+    if (qpm.hasKey("diffsongs") && !(this.songMap.containsKey(songSearch))) {
       hashMap.clear();
       return DatasourceSerialize(hashMap);
     }
