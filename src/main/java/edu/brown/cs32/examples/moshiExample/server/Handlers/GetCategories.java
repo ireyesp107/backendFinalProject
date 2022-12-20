@@ -136,7 +136,6 @@ public class GetCategories extends genericHandler implements Route {
 
 
     if (!(qpm.hasKey("easysongs")) && !(qpm.hasKey("diffsongs"))){
-      System.out.println("a");
       return BadRequestSerialize(hashMap);
     }
     if (((!(qpm.hasKey("easysongs")) && !(qpm.hasKey("diffsongs")))) && songInput.length() == 0){
@@ -146,6 +145,7 @@ public class GetCategories extends genericHandler implements Route {
     }
     if (qpm.hasKey("easysongs") && !(this.easysongMap.containsKey(songSearch))) {
       hashMap.clear();
+      //return BadRequestSerialize(hashMap);
       return DatasourceSerialize(hashMap);
     }
     if (qpm.hasKey("diffsongs") && !(this.songMap.containsKey(songSearch))) {
@@ -155,7 +155,6 @@ public class GetCategories extends genericHandler implements Route {
 
     if (!(request.queryParams().size() == 1)){
       hashMap.clear();
-      System.out.println("c");
       return BadRequestSerialize(hashMap);
     }
     if (qpm.hasKey("easysongs")) {

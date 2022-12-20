@@ -129,18 +129,26 @@ public class TestCategoriesHandler {
   @Test
   public void testGettingCategoriesErrorsWithNoEquals() throws Exception {
     // without "=" for the query
-    HttpURLConnection clientConnection = tryRequest("songs?songs");
+    HttpURLConnection clientConnection = tryRequest("songs?diffsongs");
     assertEquals(200,  clientConnection.getResponseCode());
     Moshi moshi = new Moshi.Builder().build();
     Map mapResponse = moshi.adapter(Map.class).fromJson
         (new Buffer().readFrom(clientConnection.getInputStream()));
-    assertEquals("{errorType=error_bad_request}",  mapResponse.get("Result").toString());
+    assertEquals("{errorType=error_datasource}",  mapResponse.get("Result").toString());
     clientConnection.disconnect();
+
+    HttpURLConnection clientConnection2 = tryRequest("songs?easy");
+    assertEquals(200,  clientConnection2.getResponseCode());
+    Moshi moshi2 = new Moshi.Builder().build();
+    Map mapResponse2 = moshi.adapter(Map.class).fromJson
+            (new Buffer().readFrom(clientConnection2.getInputStream()));
+    assertEquals("{errorType=error_datasource}",  mapResponse.get("Result").toString());
+    clientConnection2.disconnect();
   }
   @Test
   public void testGettingCategoriesErrorsWithSongNotInData() throws Exception {
     // testing for song name that is not in the data
-    HttpURLConnection clientConnection = tryRequest("songs?songs=amk");
+    HttpURLConnection clientConnection = tryRequest("songs?diffsongs=amk");
     assertEquals(200,  clientConnection.getResponseCode());
     Moshi moshi = new Moshi.Builder().build();
     Map mapResponse = moshi.adapter(Map.class).fromJson
@@ -151,7 +159,7 @@ public class TestCategoriesHandler {
   @Test
   public void testGettingCategoriesErrorsMoreThanOneQueryParam() throws Exception {
     // testing if query has more than one parameter
-    HttpURLConnection clientConnection = tryRequest("songs?songs=wiggle&hello=bye");
+    HttpURLConnection clientConnection = tryRequest("songs?diffsongs=wiggle&hello=bye");
     assertEquals(200,  clientConnection.getResponseCode());
     Moshi moshi = new Moshi.Builder().build();
     Map mapResponse = moshi.adapter(Map.class).fromJson
@@ -162,12 +170,12 @@ public class TestCategoriesHandler {
   @Test
   public void testGettingCategoriesErrorsSongInputHasLength0() throws Exception {
     // testing if nothing is inputted for the song
-    HttpURLConnection clientConnection = tryRequest("songs?songs=");
+    HttpURLConnection clientConnection = tryRequest("songs?diffsongs=");
     assertEquals(200,  clientConnection.getResponseCode());
     Moshi moshi = new Moshi.Builder().build();
     Map mapResponse = moshi.adapter(Map.class).fromJson
         (new Buffer().readFrom(clientConnection.getInputStream()));
-    assertEquals("{errorType=error_bad_request}",  mapResponse.get("Result").toString());
+    assertEquals("{errorType=error_datasource}",  mapResponse.get("Result").toString());
     clientConnection.disconnect();
   }
 
@@ -185,24 +193,24 @@ public class TestCategoriesHandler {
     return name;
   }
   // fuzz tester
-//  @Test
-//  public void fuzzTestParser() throws IOException {
-//    // number of trials/ times the code runs for a random csv and parser
-//    final int NUM_TRIALS = 20;
-//    // the maximum length of a string in the csv
-//    final int MAX_STRINGS = 10;
-//    // the maximum number of columns inside the csv
-//    for(int counter=0;counter<NUM_TRIALS;counter++) {
-//
-//      // calling this helper produces a random CSV-formatted string
-//      // that contains a set of encoded String objects
-//      String song = randomCSV(MAX_STRINGS);
-//
-//      HttpURLConnection clientConnection = tryRequest("songs?songs="+song);
-//      //assertEquals(200,  clientConnection.getResponseCode());
-//    }
-//
-//  }
+  @Test
+  public void fuzzTestParser() throws IOException {
+    // number of trials/ times the code runs for a random csv and parser
+    final int NUM_TRIALS = 20;
+    // the maximum length of a string in the csv
+    final int MAX_STRINGS = 10;
+    // the maximum number of columns inside the csv
+    for(int counter=0;counter<NUM_TRIALS;counter++) {
+
+      // calling this helper produces a random CSV-formatted string
+      // that contains a set of encoded String objects
+      String song = randomCSV(MAX_STRINGS);
+
+      HttpURLConnection clientConnection = tryRequest("songs?diffsongs="+song);
+      //assertEquals(200,  clientConnection.getResponseCode());
+    }
+
+  }
 
 
 }
